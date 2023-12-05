@@ -1,10 +1,10 @@
 # Public repository of databases for CFD modeling with CFD-Ace
 
-General disclaimer : these databases have been developped in the [SIMAP laboratory, France](https://simap.grenoble-inp.fr/) between 2006 and 2023 for internal use with custom CVD reactors. The related papers in which these models have been used are given in description. Use at your own risk. These models have been used essentially for simulating epitaxial growth (microelectronics industry) and hard coatings for harsh Environment (Nuclear and Solar Energy).
+General disclaimer : these databases have been developped in the [SIMAP laboratory (France)](https://simap.grenoble-inp.fr/), between 2006 and 2023 for internal use with custom CVD reactors. The related papers in which these models have been used are given in description. Use at your own risk. These models have been used essentially for simulating epitaxial growth (microelectronics industry) and hard coatings for harsh Environment (Nuclear and Solar Energy).
 
 All codes are to be used with [CFD-Ace from Applied Materials](https://www.appliedmaterials.com/us/en/semiconductor/solutions-and-software/software-solutions/ace-plus-suite.html), a general CFD modeling software suite. To grad the databases for transport, properties and chemical reactions, just open the files and pick them from the local .DTF database to your local database. They converge with the 2023.0 version of the software. All models include transport properties, thermodynamical properties and gas-phase and surface kinetics. They can be run as it. GEOM files are not provided as they depict our custom CVD reactors.
 
-The theories used to estimate kinetics and transport properties as well as the formalism for kinetics are detailed in [my lectures given at Phelma School of engineer (France)](https://github.com/Raphael-Boichot/A-database-for-CVD-modeling-of-carbides-and-nitrides/blob/main/Documentation/Chemical%20Vapor%20Deposition%20-%20Lectures.pdf).
+The theories used to estimate kinetics and transport properties as well as the formalism for kinetics are detailed in [my lectures](https://github.com/Raphael-Boichot/A-database-for-CVD-modeling-of-carbides-and-nitrides/blob/main/Documentation/Chemical%20Vapor%20Deposition%20-%20Lectures.pdf) given at [Phelma School of engineer (France)](https://phelma.grenoble-inp.fr/).
 
 # CVD of SiC
 ## Suppporting data for paper [https://doi.org/10.1016/j.surfcoat.2020.126102](https://doi.org/10.1016/j.surfcoat.2020.126102)
