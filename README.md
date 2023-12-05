@@ -2,7 +2,7 @@
 
 General disclaimer : these databases have been developped in SIMAP laboratory between 2006 and 2023 for internal use with custom CVD reactors. The related papers in which these models have been used are given in description. Use at your own risk. These models have been used essentially for simulating epitaxial growth (microelectronics industry) and hard coatings for harsh Environment (Nuclear and Solar Energy).
 
-All codes are to be used with [CFD-Ace from Applied Materials](https://www.appliedmaterials.com/us/en/semiconductor/solutions-and-software/software-solutions/ace-plus-suite.html), a general CFD modeling software suite.
+All codes are to be used with [CFD-Ace from Applied Materials](https://www.appliedmaterials.com/us/en/semiconductor/solutions-and-software/software-solutions/ace-plus-suite.html), a general CFD modeling software suite. To grad the databases for transport, properties and chemical reactions, just open the files and pick them from the local .DTF database to your local database.
 
 # CVD of SiC growth
 ## Suppporting data for paper [https://doi.org/10.1016/j.surfcoat.2020.126102](https://doi.org/10.1016/j.surfcoat.2020.126102)
