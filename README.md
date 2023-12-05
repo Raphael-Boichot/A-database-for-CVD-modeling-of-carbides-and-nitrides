@@ -1,4 +1,4 @@
-# Public repository of databases for CFD modeling with CFD-Ace
+# Public repository of databases for CFD modeling of Chemical Vapor Deposition of ceramics with CFD-Ace
 
 General disclaimer : these databases have been developped in the [SIMAP laboratory (France)](https://simap.grenoble-inp.fr/), between 2006 and 2023 for internal use with custom CVD reactors. The related papers in which these models have been used are given in description. Use at your own risk. These models have been used essentially for simulating epitaxial growth (microelectronics industry) and hard coatings for harsh Environment (Nuclear and Solar Energy).
 
