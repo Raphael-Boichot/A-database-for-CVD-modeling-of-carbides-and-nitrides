@@ -16,7 +16,7 @@ This model was initially developped between 2007 and 2010 for epitaxial growth o
 
 ## CVD of BN
 ## Unpublished simulations
-This model was developped around 2009 to perform the CVD of BN from BCl3 and NH3 on various substrates (graphite, sapphire, SiC). The gas phase reactions involves the B-Cl-N-H system and are inspired from a study from M.D. Allendorf. NH3 pyrolysis reactions were skipped because too slow at this pressure/temperature. Surface reaction mechanism was inspired from similar mechanism published by A. Dollet on AlN and tuned with experimental data. This model was used in the [thesis of Nicolas Coudurier](https://theses.fr/2014GRENI009) to assess the effect of local gas saturation on BN texture/epitaxy on various substrates. The model per se was unpublished, so use at your own risks.
+This model was developped around 2009 to perform the CVD of BN from BCl3 and NH3 on various substrates (graphite, sapphire, SiC). The gas phase reactions involves the B-Cl-N-H system and are inspired from a [study from M.D. Allendorf](/CFD%20models/allendorfBCL3.cgi). NH3 pyrolysis reactions were skipped because too slow at this pressure/temperature. Surface reaction mechanism was inspired from similar mechanism published by A. Dollet on AlN and tuned with experimental data. This model was used in the [thesis of Nicolas Coudurier](https://theses.fr/2014GRENI009) to assess the effect of local gas saturation on BN texture/epitaxy on various substrates. The model per se was unpublished, so use at your own risks.
 
 ## CVD of TiN
 ## Supporting data for paper [https://doi.org/10.1039/C9CE00488B](https://doi.org/10.1039/C9CE00488B)
