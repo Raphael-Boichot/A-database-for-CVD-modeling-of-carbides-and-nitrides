@@ -1,0 +1,240 @@
+ *******************************************************************************
+ *                                                                             *
+ * CCCCC FFFFF DDDD     AAA  CCCCC EEEEE   SSSS  OOO  L   V       V EEEEE RRR  *
+ * C     F     D   D   A   A C     E       S    O   O L    V     V  E     R  R *
+ * C     FFFF  D   D = AAAAA C     EEEE  = SSSS O   O L     V   V   EEEE  RRR  *
+ * C     F     D   D   A   A C     E          S O   O L      V V    E     R R  *
+ * CCCCC F     DDDD    A   A CCCCC EEEEE   SSSS  OOO  LLLLL   V     EEEEE R  R *
+ *                                                                             *
+ *       Version          : 2023.00.06.063                                     *
+ *       Build Date       : 01/17/2023 16:45:26                                *
+ *       Build OS         : Windows                                            *
+ *       Build OS Release : 10                                                 *
+ *       Build OS Version : 10.0.17763                                         *
+ *       Build Machine    : HUNVSE060                                          *
+ *                                                                             *
+ *      Copyright(C) 1994-2022 Applied Materials. All Rights Reserved.              *
+ *                                                                             *
+ *******************************************************************************
+ 
+ 
+  ===============================================================
+     CFD-ACE-SOLVER Run Platform Information :
+  ===============================================================
+     Run Date           : 07/18/2025 09:36:47
+     Run OS             :
+     Run OS Release     :
+     Run OS Version     :
+     Run Machine        : PC-GAREL
+  ===============================================================
+  ===============================================================
+ 
+    This simulation is running in double precision serial mode
+ 
+  =====================================
+    Summary of Input Information
+  =====================================
+    Problem has been set up using : CFD-ACE-GUI
+  ================
+    Model Options
+  ================
+    Shared
+    -------
+    Model Name        : Tube_simple_CrC_growth
+    Modules           : FLOW HEAT SPECIES_SOLUTION
+    DTF File Name     : Tube_simple_CrC_growth.DTF
+    Simulation Number = 1
+    Diagnostic        : OFF
+    Geometry          : Two Dimensional Axisymmetric
+    Iterations        =       100000
+    Time Dependence   : Steady
+    Output Controls
+      Output Start    =            0
+      Output End      =     10000000
+      Output Interval =       100000
+ 
+  =======================================
+    Summary of 2D Axisymmetric Grid Data
+  =======================================
+    Total No. of nodes       =      39700
+    No. of line faces        =      78903
+    Total No. of faces       =      78903
+    No. of quad cells        =      39204
+    Total No. of cells       =      39204
+ 
+   ====================================================================
+  |                         Summary of Properties                      |
+   ====================================================================
+  |   Key No.   |  Zone No.  |  VC Name  |  Mat. Type  | No. of Cells  |
+   --------------------------------------------------------------------
+  |          67 |      1     | NoName    |    Fluid    |     39204     |
+   --------------------------------------------------------------------
+         | Property Name | Evaluation Method |    Value     |
+   ====================================================================
+         |       Density |   Gas_Law         |     -        |
+         |     Viscosity |   Mix_Kin_Theo    |     -        |
+         |      Conduct. |   Kinetic Theory  |     -        |
+         |      Sp. Heat |   Jannaf          |     -        |
+         |     Diffusion | Kinetic Theory    |     -        |
+   ====================================================================
+ 
+   ====================================
+    Summary of Multi-Component Species
+   ====================================
+ 
+   The following Chemical Components have been defined:
+ 
+ ----------------------------------------------------------------- -----------------------------------
+ Species Name      Mol Wt.      A_VIS       B_VIS       Coll. Dia.   Energy      Acc. Coeff   Heat Acc
+ -----------------------------------------------------------------------------------------------------
+ 
+  MH_BBC             2.082E+02   0.000E+00   0.000E+00   5.276E+00   4.650E+02   0.000E+00   9.317E-01
+  MH_MBC             1.301E+02   0.000E+00   0.000E+00   5.276E+00   4.650E+02   0.000E+00   9.317E-01
+  MH_C6H6_BBC        7.811E+01   0.000E+00   0.000E+00   5.276E+00   4.653E+02   0.000E+00   9.317E-01
+  MH_C6H6            7.811E+01   0.000E+00   0.000E+00   5.276E+00   4.653E+02   0.000E+00   9.317E-01
+  M_H2               2.016E+00   6.890E-07   9.669E+01   2.827E+00   5.970E+01   9.317E-01   9.317E-01
+  C2H2               2.604E+01   1.405E-06   1.115E+02   4.033E+00   2.318E+02   9.317E-01   9.317E-01
+  MH_C6H5CH3         9.214E+01   0.000E+00   0.000E+00   5.574E+00   5.121E+02   0.000E+00   9.317E-01
+  N2                 2.801E+01   1.405E-06   1.115E+02   3.798E+00   7.140E+01   9.317E-01   9.317E-01
+  M_CR(B)            5.200E+01   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00
+  C(B)               1.201E+01   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   9.317E-01
+  M_CR(S)            5.200E+01   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00
+ -----------------------------------------------------------------------------------------------------
+ 
+ 
+   =================================
+    Summary of Multi-Step Reactions
+   =================================
+ 
+   Units : Kmol-m-s-K (or eV);  R_Heat (reaction heat) calculated at 298 K
+ 
+   Kinetics Algorithm : Non-Stiff
+ 
+   No. of chemical reaction mechanisms :  1
+ 
+   Info for mechanism no.:  1
+ 
+   Reaction Name : CrC_from_bisbenzene_Chromium_volume
+   Reaction Type : General Rate
+   No. of reaction steps:   1
+ 
+   ------------------------------------------------------------------------------
+ 
+     1 : MH_BBC --> MH_MBC + MH_C6H6_BBC             R_Heat = 8.2131E+07 (J/kmol)
+         Rate_f :  0.800000E+05 * T **     0.500 * Exp(-0.70E+04/T) * [MH_BBC]
+ 
+   =====================================================================================
+ 
+ 
+   ==============================
+    Summary of Surface Reactions
+   ==============================
+ 
+   No. of surface reaction mechanisms :  1
+ 
+   Info for mechanism : CrC_from_bisbenzene_Chromium_surface
+ 
+   No. of reaction steps:   2
+ 
+   -----------------------------------------------------
+   -----------------------------------------------------
+   No. of Surface Sites :     1
+   -----------------------------------------------------
+   Site No.   Site Density    No. of Species
+      1       1.140000E-08          1
+   -----------------------------------------------------
+     Site Species
+        1     M_CR(S)
+   -----------------------------------------------------
+ 
+ 
+   Info for Reaction Step:   1
+   Reaction Type : General Rate
+ 
+   MH_MBC +M_CR(S) --->MH_C6H6 +M_CR(B) +M_CR(S)
+ 
+   Transferred Species Name: M_CR(B)
+   Transferred Species Density:       7.150000E+03
+ 
+   Forward rate :
+ 
+     Pre-exponential factor   :       2.500000E+15
+     Temperature exponent     :       5.000000E-01
+     Activation Temperature   :       8.000000E+03
+     Concentration Exponents  :       [MH_MBC]*[M_CR(S)]
+ 
+ 
+   Reverse rate :
+     Step is irreversible
+   -----------------------------------------------------
+ 
+   Info for Reaction Step:   2
+   Reaction Type : Sticking Coefficient
+ 
+   MH_C6H6 +M_CR(S) ---> 1.1 M_H2 + 1.9 C2H2 + 2.3 C(B) +M_CR(S)
+ 
+   Transferred Species Name: C(B)
+   Transferred Species Density:       9.720000E+02
+ 
+   Forward rate :
+ 
+     Pre-exponential factor   :       1.000000E+00
+     Temperature exponent     :       0.000000E+00
+     Activation Temperature   :       0.000000E+00
+     Concentration Exponents  :       [MH_C6H6]
+ 
+ 
+   Reverse rate :
+     Not applicable for Sticking Coefficient
+ 
+   -----------------------------------------------------
+   =====================================================================================
+ 
+   [Chemistry] : Volume  reaction rate computations start at iteration =            1
+ 
+   [Chemistry] : Surface reaction rate computations start at iteration =            1
+ 
+ 
+   =============================================================================
+  |                       Summary of Solver Control Parameters                  |
+   =============================================================================
+  | Prop. |  Diff.  |        Solver        |    Relaxation    |      Limits     |
+   -----------------------------------------------------------------------------
+  |       |         |  Name  |Sweep|Criter.| Inertial| Linear |  Min.  |  Max.  |
+   =============================================================================
+  |     U |Upwind   | CGS+Pre|   50|1.0E-04|  2.0E-01|   -    |-1.0E+20| 1.0E+20|
+  |     V |Upwind   | CGS+Pre|   50|1.0E-04|  2.0E-01|   -    |-1.0E+20| 1.0E+20|
+  |P-Corr |    -    | AMG    |   50|1.0E-01|  2.0E-01|   -    |   -    |    -   |
+  |     P |    -    |    -   |  -  |   -   |   -     | 1.0E+00|-1.0E+20| 1.0E+20|
+  |   Rho |    -    |    -   |  -  |   -   |   -     | 1.0E+00| 1.0E-06| 1.0E+20|
+  |    Mu |    -    |    -   |  -  |   -   |   -     | 1.0E+00| 1.0E-10| 1.0E+02|
+  |    H0 |Upwind   | CGS+Pre|   50|1.0E-04|  5.0E-02|   -    |-1.0E+20| 1.0E+20|
+  |     T |    -    |    -   |  -  |   -   |   -     | 1.0E+00| 1.0E-10| 5.0E+03|
+  |Specie |Upwind   | CGS+Pre|   50|1.0E-04|  5.0E-02|   -    | 0.0E+00| 1.0E+00|
+  |Specie |Upwind   | CGS+Pre|   50|1.0E-04|  5.0E-02|   -    | 0.0E+00| 1.0E+00|
+   =============================================================================
+ 
+ 
+   =====================================
+   Summary of Geometry Data
+   =====================================
+ 
+   Smallest Volume   :   3.220657E-10
+ 
+   Largest  Volume   :   6.344694E-08
+ 
+   Smallest Angle    :   8.999974E+01 in zone  0 at face =         1
+ 
+   Location of face number         1 is x =   1.0000E+00 y =   3.3670E-04 z =   0.0000E+00
+ 
+   =============================
+   Start of Iterative Cycle.....
+   =============================
+ 
+  Save and Stop Signal Received from User
+ 
+         Final Time   Elapsed CPU Time=  9.468800E+01 Delta-time=  9.468800E+01
+ 
+         Final Time   Elapsed Wall Clock=  9.468726E+01 Delta-Wall Clock=  9.468726E+01
+ 
+  Normal Termination

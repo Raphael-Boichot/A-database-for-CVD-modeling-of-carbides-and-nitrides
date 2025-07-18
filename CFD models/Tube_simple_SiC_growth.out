@@ -1,0 +1,627 @@
+ *******************************************************************************
+ *                                                                             *
+ * CCCCC FFFFF DDDD     AAA  CCCCC EEEEE   SSSS  OOO  L   V       V EEEEE RRR  *
+ * C     F     D   D   A   A C     E       S    O   O L    V     V  E     R  R *
+ * C     FFFF  D   D = AAAAA C     EEEE  = SSSS O   O L     V   V   EEEE  RRR  *
+ * C     F     D   D   A   A C     E          S O   O L      V V    E     R R  *
+ * CCCCC F     DDDD    A   A CCCCC EEEEE   SSSS  OOO  LLLLL   V     EEEEE R  R *
+ *                                                                             *
+ *       Version          : 2023.00.06.063                                     *
+ *       Build Date       : 01/17/2023 16:45:26                                *
+ *       Build OS         : Windows                                            *
+ *       Build OS Release : 10                                                 *
+ *       Build OS Version : 10.0.17763                                         *
+ *       Build Machine    : HUNVSE060                                          *
+ *                                                                             *
+ *      Copyright(C) 1994-2022 Applied Materials. All Rights Reserved.              *
+ *                                                                             *
+ *******************************************************************************
+ 
+ 
+  ===============================================================
+     CFD-ACE-SOLVER Run Platform Information :
+  ===============================================================
+     Run Date           : 07/18/2025 09:35:44
+     Run OS             :
+     Run OS Release     :
+     Run OS Version     :
+     Run Machine        : PC-GAREL
+  ===============================================================
+  ===============================================================
+ 
+    This simulation is running in double precision serial mode
+ 
+  =====================================
+    Summary of Input Information
+  =====================================
+    Problem has been set up using : CFD-ACE-GUI
+  ================
+    Model Options
+  ================
+    Shared
+    -------
+    Model Name        : Tube_simple_SiC_growth
+    Modules           : FLOW HEAT SPECIES_SOLUTION
+    DTF File Name     : Tube_simple_SiC_growth.DTF
+    Simulation Number = 1
+    Diagnostic        : OFF
+    Geometry          : Two Dimensional Axisymmetric
+    Iterations        =       100000
+    Time Dependence   : Steady
+    Output Controls
+      Output Start    =            0
+      Output End      =     10000000
+      Output Interval =       100000
+ 
+  =======================================
+    Summary of 2D Axisymmetric Grid Data
+  =======================================
+    Total No. of nodes       =      39700
+    No. of line faces        =      78903
+    Total No. of faces       =      78903
+    No. of quad cells        =      39204
+    Total No. of cells       =      39204
+ 
+   ====================================================================
+  |                         Summary of Properties                      |
+   ====================================================================
+  |   Key No.   |  Zone No.  |  VC Name  |  Mat. Type  | No. of Cells  |
+   --------------------------------------------------------------------
+  |          67 |      1     | NoName    |    Fluid    |     39204     |
+   --------------------------------------------------------------------
+         | Property Name | Evaluation Method |    Value     |
+   ====================================================================
+         |       Density |   Gas_Law         |     -        |
+         |     Viscosity |   Mix_Kin_Theo    |     -        |
+         |      Conduct. |   Kinetic Theory  |     -        |
+         |      Sp. Heat |   Jannaf          |     -        |
+         |     Diffusion | Kinetic Theory    |     -        |
+   ====================================================================
+ 
+   ====================================
+    Summary of Multi-Component Species
+   ====================================
+ 
+   The following Chemical Components have been defined:
+ 
+ ----------------------------------------------------------------- -----------------------------------
+ Species Name      Mol Wt.      A_VIS       B_VIS       Coll. Dia.   Energy      Acc. Coeff   Heat Acc
+ -----------------------------------------------------------------------------------------------------
+ 
+  SIH4               3.212E+01   1.405E-06   1.115E+02   4.084E+00   2.076E+02   9.317E-01   9.317E-01
+  SIH2               3.010E+01   1.405E-06   1.115E+02   3.803E+00   1.331E+02   9.317E-01   9.317E-01
+  H2                 2.016E+00   6.890E-07   9.669E+01   2.920E+00   3.800E+01   9.317E-01   9.317E-01
+  SI2H6              6.222E+01   1.405E-06   1.115E+02   4.828E+00   3.013E+02   9.317E-01   9.317E-01
+  SI_G               2.809E+01   1.405E-06   1.115E+02   4.084E+00   2.076E+02   9.317E-01   9.317E-01
+  H                  1.008E+00   6.890E-07   9.669E+01   2.050E+00   1.450E+02   9.317E-01   9.317E-01
+  C3H8               4.410E+01   1.131E-06   4.350E+02   4.982E+00   2.668E+02   9.317E-01   9.317E-01
+  CH3                1.503E+01   1.405E-06   1.115E+02   3.800E+00   1.440E+02   9.317E-01   9.317E-01
+  C2H5               2.906E+01   1.405E-06   1.115E+02   4.302E+00   2.523E+02   9.317E-01   9.317E-01
+  CH4                1.604E+01   1.252E-06   1.974E+02   3.758E+00   1.486E+02   9.317E-01   9.317E-01
+  C2H6               3.007E+01   1.141E-06   3.520E+02   4.443E+00   2.157E+02   9.317E-01   9.317E-01
+  C2H4               2.805E+01   1.314E-06   3.990E+02   4.163E+00   2.247E+02   9.317E-01   9.317E-01
+  C2H2               2.604E+01   1.405E-06   1.115E+02   4.033E+00   2.318E+02   9.317E-01   9.317E-01
+  H3SICH3            4.614E+01   1.405E-06   1.115E+02   4.084E+00   2.076E+02   9.317E-01   9.317E-01
+  HSICH3             4.413E+01   1.405E-06   1.115E+02   4.084E+00   2.076E+02   9.317E-01   9.317E-01
+  SI2                5.617E+01   0.000E+00   0.000E+00   3.280E+00   3.036E+03   9.317E-01   9.317E-01
+  SI2C               6.818E+01   1.405E-06   1.115E+02   3.500E+00   5.190E+02   9.317E-01   9.317E-01
+  SICH2              4.211E+01   1.405E-06   1.115E+02   4.230E+00   5.190E+02   9.317E-01   9.317E-01
+  CH2                1.403E+01   1.405E-06   1.115E+02   3.800E+00   1.440E+02   9.317E-01   9.317E-01
+  N2                 2.801E+01   1.405E-06   1.115E+02   3.621E+00   9.753E+01   9.317E-01   9.317E-01
+  CL2                7.091E+01   1.405E-06   1.115E+02   4.217E+00   3.160E+02   9.317E-01   9.317E-01
+  C(B)               1.201E+01   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   9.317E-01
+  SI(B)              2.809E+01   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   9.317E-01
+  N_V(B)             1.401E+01   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   9.317E-01
+  SI_S(S)            2.809E+01   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   9.317E-01
+  C_S(S)             1.201E+01   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00
+  SIH2_S(S)          3.010E+01   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00
+  N_S(S)             1.401E+01   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   9.317E-01
+ -----------------------------------------------------------------------------------------------------
+ 
+ 
+   =================================
+    Summary of Multi-Step Reactions
+   =================================
+ 
+   Units : Kmol-m-s-K (or eV);  R_Heat (reaction heat) calculated at 298 K
+ 
+   Kinetics Algorithm : Non-Stiff
+ 
+   No. of chemical reaction mechanisms :  1
+ 
+   Info for mechanism no.:  1
+ 
+   Reaction Name : SiH4+C3H8(Dron)
+   Reaction Type : General Rate
+   No. of reaction steps:  17
+ 
+   ------------------------------------------------------------------------------
+ 
+     1 : SIH4 <-> SIH2 + H2                          R_Heat = 2.3724E+08 (J/kmol)
+         Rate_f :  0.667100E+30 * T **    -4.795 * Exp(-0.32E+05/T) * [SIH4]
+         Rate_r : by Equilibrium
+ 
+     2 : SI2H6 <-> SIH4 + SIH2                       R_Heat = 2.2512E+08 (J/kmol)
+         Rate_f :  0.324000E+30 * T **    -4.240 * Exp(-0.29E+05/T) * [SI2H6]
+         Rate_r : by Equilibrium
+ 
+     3 : SIH2 <-> H2 + SI_G                          R_Heat = 1.7946E+08 (J/kmol)
+         Rate_f :  0.106000E+15 * T **    -0.880 * Exp(-0.23E+05/T) * [SIH2]
+         Rate_r : by Equilibrium
+ 
+     4 : H2 + 2.0 H <-> 2.0 H2                       R_Heat =-4.3593E+08 (J/kmol)
+         Rate_f :  0.920000E+11 * T **    -0.600 * Exp( 0.00E+00/T) * [H2]*[H]**2.000
+         Rate_r : by Equilibrium
+ 
+     5 : C3H8 <-> CH3 + C2H5                         R_Heat = 3.6676E+08 (J/kmol)
+         Rate_f :  0.169800E+17 * T **     0.000 * Exp(-0.43E+05/T) * [C3H8]
+         Rate_r : by Equilibrium
+ 
+     6 : H + CH4 <-> H2 + CH3                        R_Heat = 2.6166E+06 (J/kmol)
+         Rate_f :  0.220000E+02 * T **     3.000 * Exp(-0.44E+04/T) * [H]*[CH4]
+         Rate_r : by Equilibrium
+ 
+     7 : H + C2H5 <-> 2.0 CH3                        R_Heat =-4.3805E+07 (J/kmol)
+         Rate_f :  0.100000E+12 * T **     0.000 * Exp(-0.13E+05/T) * [H]*[C2H5]
+         Rate_r : by Equilibrium
+ 
+     8 : 2.0 CH3 <-> C2H6                            R_Heat =-3.7524E+08 (J/kmol)
+         Rate_f :  0.903000E+14 * T **    -1.180 * Exp(-0.33E+03/T) * [CH3]**2.000
+         Rate_r : by Equilibrium
+ 
+     9 : H + C2H4 <-> C2H5                           R_Heat =-1.5321E+08 (J/kmol)
+         Rate_f :  0.221000E+11 * T **     0.000 * Exp(-0.10E+04/T) * [H]*[C2H4]
+         Rate_r : by Equilibrium
+ 
+    10 : C2H4 <-> H2 + C2H2                          R_Heat = 1.7430E+08 (J/kmol)
+         Rate_f :  0.150000E+16 * T **     0.000 * Exp(-0.41E+05/T) * [C2H4]
+         Rate_r : by Equilibrium
+ 
+    11 : H3SICH3 <-> SIH2 + CH4                      R_Heat = 2.2657E+08 (J/kmol)
+         Rate_f :  0.200000E+15 * T **     0.000 * Exp(-0.36E+05/T) * [H3SICH3]
+         Rate_r : by Equilibrium
+ 
+    12 : H3SICH3 <-> H2 + HSICH3                     R_Heat = 2.3493E+08 (J/kmol)
+         Rate_f :  0.100000E+15 * T **     0.000 * Exp(-0.32E+05/T) * [H3SICH3]
+         Rate_r : by Equilibrium
+ 
+    13 : SI2 <-> 2.0 SI_G                            R_Heat = 2.9117E+08 (J/kmol)
+         Rate_f :  0.100000E+16 * T **     0.000 * Exp(-0.37E+05/T) * [SI2]
+         Rate_r : by Equilibrium
+ 
+    14 : CH4 + SI2 <-> 2.0 H2 + SI2C                 R_Heat = 4.6176E+05 (J/kmol)
+         Rate_f :  0.301100E+13 * T **     0.000 * Exp(-0.10E+05/T) * [CH4]*[SI2]
+         Rate_r : by Equilibrium
+ 
+    15 : SIH2 + SI_G <-> H2 + SI2                    R_Heat =-1.1171E+08 (J/kmol)
+         Rate_f :  0.150000E+12 * T **     0.000 * Exp( 0.00E+00/T) * [SIH2]*[SI_G]
+         Rate_r : by Equilibrium
+ 
+    16 : SI_G + CH3 <-> H + SICH2                    R_Heat = 2.3676E+08 (J/kmol)
+         Rate_f :  0.139000E+10 * T **     0.500 * Exp( 0.00E+00/T) * [SI_G]*[CH3]
+         Rate_r : by Equilibrium
+ 
+    17 : SIH2 + SICH2 <-> 2.0 H2 + SI2C              R_Heat =-3.5063E+08 (J/kmol)
+         Rate_f :  0.100000E+13 * T **     0.000 * Exp( 0.00E+00/T) * [SIH2]*[SICH2]
+         Rate_r : by Equilibrium
+ 
+   =====================================================================================
+ 
+  Warning: units for surface reaction kinetics are converted from mol-K-cm-s to Kmol-K-m-s  for mechanism number   1
+  Warning: units for site density are converted from mol/cm^2 to Kmol/m^2  for mechanism number   1
+  Warning: units for Bulk Species Density is converted from g/cm^3 to Kg/m^3  for mechanism number   1
+ 
+   ==============================
+    Summary of Surface Reactions
+   ==============================
+ 
+   No. of surface reaction mechanisms :  1
+ 
+   Info for mechanism : NC-face(Nishizawa)
+ 
+   No. of reaction steps:  17
+ 
+   -----------------------------------------------------
+   -----------------------------------------------------
+   No. of Surface Sites :     1
+   -----------------------------------------------------
+   Site No.   Site Density    No. of Species
+      1       1.080000E-08          4
+   -----------------------------------------------------
+     Site Species
+        1     SI_S(S)
+        2     C_S(S)
+        3     SIH2_S(S)
+        4     N_S(S)
+   -----------------------------------------------------
+ 
+ 
+   Info for Reaction Step:   1
+   Reaction Type : General Rate
+ 
+   H2 +C(B) +SI_S(S) --->SIH2 +C_S(S)
+ 
+   Transferred Species Name: C(B)
+   Transferred Species Density:       9.720000E+02
+ 
+   Forward rate :
+ 
+     Pre-exponential factor   :       2.200000E+29
+     Temperature exponent     :       0.000000E+00
+     Activation Temperature   :       5.278600E+04
+     Concentration Exponents  :       [H2]*[SI_S(S)]
+ 
+ 
+   Reverse rate :
+     Step is irreversible
+   -----------------------------------------------------
+ 
+   Info for Reaction Step:   2
+   Reaction Type : General Rate
+ 
+   H2 + 2.0 SI(B) + 2.0 C_S(S) --->C2H2 + 2.0 SI_S(S)
+ 
+   Transferred Species Name: SI(B)
+   Transferred Species Density:       2.247000E+03
+ 
+   Forward rate :
+ 
+     Pre-exponential factor   :       2.200000E+22
+     Temperature exponent     :       0.000000E+00
+     Activation Temperature   :       5.278600E+04
+     Concentration Exponents  :       [H2]*[C_S(S)]**2.000
+ 
+ 
+   Reverse rate :
+     Step is irreversible
+   -----------------------------------------------------
+ 
+   Info for Reaction Step:   3
+   Reaction Type : General Rate
+ 
+   SIH4 +C_S(S) --->H2 +C(B) +SIH2_S(S)
+ 
+   Transferred Species Name: C(B)
+   Transferred Species Density:       9.720000E+02
+ 
+   Forward rate :
+ 
+     Pre-exponential factor   :       1.592000E+07
+     Temperature exponent     :       0.000000E+00
+     Activation Temperature   :       9.401000E+03
+     Concentration Exponents  :       [SIH4]*[C_S(S)]
+ 
+ 
+   Reverse rate :
+     Step is irreversible
+   -----------------------------------------------------
+ 
+   Info for Reaction Step:   4
+   Reaction Type : General Rate
+ 
+   SIH2_S(S) --->H2 +SI_S(S)
+ 
+   No Transferred Specie defined in this step
+ 
+   Forward rate :
+ 
+     Pre-exponential factor   :       2.912000E+14
+     Temperature exponent     :       0.000000E+00
+     Activation Temperature   :       4.527000E+03
+     Concentration Exponents  :       [SIH2_S(S)]
+ 
+ 
+   Reverse rate :
+     Step is irreversible
+   -----------------------------------------------------
+ 
+   Info for Reaction Step:   5
+   Reaction Type : General Rate
+ 
+   SIH2 +C_S(S) --->C(B) +SIH2_S(S)
+ 
+   Transferred Species Name: C(B)
+   Transferred Species Density:       9.720000E+02
+ 
+   Forward rate :
+ 
+     Pre-exponential factor   :       3.060000E+08
+     Temperature exponent     :       5.000000E-01
+     Activation Temperature   :       0.000000E+00
+     Concentration Exponents  :       [SIH2]*[C_S(S)]
+ 
+ 
+   Reverse rate :
+     Step is irreversible
+   -----------------------------------------------------
+ 
+   Info for Reaction Step:   6
+   Reaction Type : General Rate
+ 
+   SI_G +C_S(S) --->C(B) +SI_S(S)
+ 
+   Transferred Species Name: C(B)
+   Transferred Species Density:       9.720000E+02
+ 
+   Forward rate :
+ 
+     Pre-exponential factor   :       3.167000E+08
+     Temperature exponent     :       5.000000E-01
+     Activation Temperature   :       0.000000E+00
+     Concentration Exponents  :       [SI_G]*[C_S(S)]
+ 
+ 
+   Reverse rate :
+     Step is irreversible
+   -----------------------------------------------------
+ 
+   Info for Reaction Step:   7
+   Reaction Type : General Rate
+ 
+   C2H2 + 2.0 SI_S(S) --->H2 + 2.0 SI(B) + 2.0 C_S(S)
+ 
+   Transferred Species Name: SI(B)
+   Transferred Species Density:       2.247000E+03
+ 
+   Forward rate :
+ 
+     Pre-exponential factor   :       3.040000E+36
+     Temperature exponent     :       5.000000E-01
+     Activation Temperature   :       0.000000E+00
+     Concentration Exponents  :       [C2H2]*[SI_S(S)]**2.000
+ 
+ 
+   Reverse rate :
+     Step is irreversible
+   -----------------------------------------------------
+ 
+   Info for Reaction Step:   8
+   Reaction Type : General Rate
+ 
+   C2H4 + 2.0 SI_S(S) ---> 2.0 H2 + 2.0 SI(B) + 2.0 C_S(S)
+ 
+   Transferred Species Name: SI(B)
+   Transferred Species Density:       2.247000E+03
+ 
+   Forward rate :
+ 
+     Pre-exponential factor   :       2.342000E+34
+     Temperature exponent     :       5.000000E-01
+     Activation Temperature   :       0.000000E+00
+     Concentration Exponents  :       [C2H4]*[SI_S(S)]**2.000
+ 
+ 
+   Reverse rate :
+     Step is irreversible
+   -----------------------------------------------------
+ 
+   Info for Reaction Step:   9
+   Reaction Type : General Rate
+ 
+   CH4 +SI_S(S) ---> 2.0 H2 +SI(B) +C_S(S)
+ 
+   Transferred Species Name: SI(B)
+   Transferred Species Density:       2.247000E+03
+ 
+   Forward rate :
+ 
+     Pre-exponential factor   :       2.098500E+02
+     Temperature exponent     :       5.000000E-01
+     Activation Temperature   :       0.000000E+00
+     Concentration Exponents  :       [CH4]*[SI_S(S)]
+ 
+ 
+   Reverse rate :
+     Step is irreversible
+   -----------------------------------------------------
+ 
+   Info for Reaction Step:  10
+   Reaction Type : General Rate
+ 
+   HSICH3 +C_S(S) --->H +CH3 +C(B) +SI_S(S)
+ 
+   Transferred Species Name: C(B)
+   Transferred Species Density:       9.720000E+02
+ 
+   Forward rate :
+ 
+     Pre-exponential factor   :       2.490000E+08
+     Temperature exponent     :       5.000000E-01
+     Activation Temperature   :       0.000000E+00
+     Concentration Exponents  :       [HSICH3]*[C_S(S)]
+ 
+ 
+   Reverse rate :
+     Step is irreversible
+   -----------------------------------------------------
+ 
+   Info for Reaction Step:  11
+   Reaction Type : General Rate
+ 
+   CH3 +SI_S(S) ---> 1.5 H2 +SI(B) +C_S(S)
+ 
+   Transferred Species Name: SI(B)
+   Transferred Species Density:       2.247000E+03
+ 
+   Forward rate :
+ 
+     Pre-exponential factor   :       4.270000E+08
+     Temperature exponent     :       5.000000E-01
+     Activation Temperature   :       0.000000E+00
+     Concentration Exponents  :       [CH3]*[SI_S(S)]
+ 
+ 
+   Reverse rate :
+     Step is irreversible
+   -----------------------------------------------------
+ 
+   Info for Reaction Step:  12
+   Reaction Type : General Rate
+ 
+   SI2 + 2.0 C_S(S) ---> 2.0 C(B) + 2.0 SI_S(S)
+ 
+   Transferred Species Name: C(B)
+   Transferred Species Density:       9.720000E+02
+ 
+   Forward rate :
+ 
+     Pre-exponential factor   :       1.000000E+07
+     Temperature exponent     :       5.000000E-01
+     Activation Temperature   :       0.000000E+00
+     Concentration Exponents  :       [SI2]*[C_S(S)]**2.000
+ 
+ 
+   Reverse rate :
+     Step is irreversible
+   -----------------------------------------------------
+ 
+   Info for Reaction Step:  13
+   Reaction Type : General Rate
+ 
+   SI2C +SI_S(S) --->SI2 +SI(B) +C_S(S)
+ 
+   Transferred Species Name: SI(B)
+   Transferred Species Density:       2.247000E+03
+ 
+   Forward rate :
+ 
+     Pre-exponential factor   :       1.000000E+22
+     Temperature exponent     :       5.000000E-01
+     Activation Temperature   :       0.000000E+00
+     Concentration Exponents  :       [SI2C]*[SI_S(S)]
+ 
+ 
+   Reverse rate :
+     Step is irreversible
+   -----------------------------------------------------
+ 
+   Info for Reaction Step:  14
+   Reaction Type : General Rate
+ 
+   SICH2 +C_S(S) --->CH2 +C(B) +SI_S(S)
+ 
+   Transferred Species Name: C(B)
+   Transferred Species Density:       9.720000E+02
+ 
+   Forward rate :
+ 
+     Pre-exponential factor   :       2.550000E+08
+     Temperature exponent     :       5.000000E-01
+     Activation Temperature   :       0.000000E+00
+     Concentration Exponents  :       [SICH2]*[C_S(S)]
+ 
+ 
+   Reverse rate :
+     Step is irreversible
+   -----------------------------------------------------
+ 
+   Info for Reaction Step:  15
+   Reaction Type : General Rate
+ 
+   CH2 +SI_S(S) --->H2 +C(B) +SI_S(S)
+ 
+   Transferred Species Name: C(B)
+   Transferred Species Density:       9.720000E+02
+ 
+   Forward rate :
+ 
+     Pre-exponential factor   :       4.419000E+08
+     Temperature exponent     :       5.000000E-01
+     Activation Temperature   :       0.000000E+00
+     Concentration Exponents  :       [CH2]*[SI_S(S)]
+ 
+ 
+   Reverse rate :
+     Step is irreversible
+   -----------------------------------------------------
+ 
+   Info for Reaction Step:  16
+   Reaction Type : General Rate
+ 
+   N2 + 2.0 SI_S(S) ---> 2.0 SI(B) + 2.0 N_S(S)
+ 
+   Transferred Species Name: SI(B)
+   Transferred Species Density:       2.247000E+03
+ 
+   Forward rate :
+ 
+     Pre-exponential factor   :       1.000000E+11
+     Temperature exponent     :       0.000000E+00
+     Activation Temperature   :      -3.150000E+04
+     Concentration Exponents  :       [N2]*[SI_S(S)]**2.000
+ 
+ 
+   Reverse rate :
+     Step is irreversible
+   -----------------------------------------------------
+ 
+   Info for Reaction Step:  17
+   Reaction Type : Sticking Coefficient
+ 
+   N_S(S) --->N_V(B)
+ 
+   Transferred Species Name: N_V(B)
+   Transferred Species Density:       2.250000E+00
+ 
+   Forward rate :
+ 
+     Pre-exponential factor   :       1.000000E+03
+     Temperature exponent     :       0.000000E+00
+     Activation Temperature   :       0.000000E+00
+     Concentration Exponents  :       [N_S(S)]
+ 
+ 
+   Reverse rate :
+     Not applicable for Sticking Coefficient
+ 
+   -----------------------------------------------------
+   =====================================================================================
+ 
+   [Chemistry] : Volume  reaction rate computations start at iteration =            1
+ 
+   [Chemistry] : Surface reaction rate computations start at iteration =            1
+ 
+ 
+   =============================================================================
+  |                       Summary of Solver Control Parameters                  |
+   =============================================================================
+  | Prop. |  Diff.  |        Solver        |    Relaxation    |      Limits     |
+   -----------------------------------------------------------------------------
+  |       |         |  Name  |Sweep|Criter.| Inertial| Linear |  Min.  |  Max.  |
+   =============================================================================
+  |     U |Upwind   | CGS+Pre|   50|1.0E-04|  2.0E-01|   -    |-1.0E+20| 1.0E+20|
+  |     V |Upwind   | CGS+Pre|   50|1.0E-04|  2.0E-01|   -    |-1.0E+20| 1.0E+20|
+  |P-Corr |    -    | AMG    |   50|1.0E-01|  2.0E-01|   -    |   -    |    -   |
+  |     P |    -    |    -   |  -  |   -   |   -     | 1.0E+00|-1.0E+20| 1.0E+20|
+  |   Rho |    -    |    -   |  -  |   -   |   -     | 1.0E+00| 1.0E-06| 1.0E+20|
+  |    Mu |    -    |    -   |  -  |   -   |   -     | 1.0E+00| 1.0E-10| 1.0E+02|
+  |    H0 |Upwind   | CGS+Pre|   50|1.0E-04|  5.0E-02|   -    |-1.0E+20| 1.0E+20|
+  |     T |    -    |    -   |  -  |   -   |   -     | 1.0E+00| 1.0E-10| 5.0E+03|
+  |Specie |Upwind   | CGS+Pre|   50|1.0E-04|  5.0E-02|   -    | 0.0E+00| 1.0E+00|
+  |Specie |Upwind   | CGS+Pre|   50|1.0E-04|  5.0E-02|   -    | 0.0E+00| 1.0E+00|
+   =============================================================================
+ 
+ 
+   =====================================
+   Summary of Geometry Data
+   =====================================
+ 
+   Smallest Volume   :   3.220657E-10
+ 
+   Largest  Volume   :   6.344694E-08
+ 
+   Smallest Angle    :   8.999974E+01 in zone  0 at face =         1
+ 
+   Location of face number         1 is x =   1.0000E+00 y =   3.3670E-04 z =   0.0000E+00
+ 
+   =============================
+   Start of Iterative Cycle.....
+   =============================
+ 
+  Save and Stop Signal Received from User
+ 
+         Final Time   Elapsed CPU Time=  3.728300E+01 Delta-time=  3.728300E+01
+ 
+         Final Time   Elapsed Wall Clock=  3.727301E+01 Delta-Wall Clock=  3.727301E+01
+ 
+  Normal Termination
