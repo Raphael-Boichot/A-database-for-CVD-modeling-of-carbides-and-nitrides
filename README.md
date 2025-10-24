@@ -1,4 +1,4 @@
-**WARNING: This database won't be updated anymore as I now work with ANSYS Fluent**
+**WARNING: CFD-Ace files won't be updated anymore as I now work with ANSYS Fluent**
 
 ## Public repository of databases for modeling the Chemical Vapor Deposition of some ceramics with CFD-Ace
 
