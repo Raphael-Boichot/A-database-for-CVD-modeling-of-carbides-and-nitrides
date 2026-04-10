@@ -1,8 +1,8 @@
 !----------------------------------------------------------------------
-! SECTION 5 : PROPRIETES DE TRANSPORT
+! TRANSPORT PROPERTIES
 !----------------------------------------------------------------------
 TRANSPORT
-! Espece   Geom  eps/k     sigma     dipole    polar     Z_rot
+! Species   Geom  eps/k     sigma     dipole    polar     Z_rot
 ALCL3      2     472.000   5.127     0.000     0.000     1.0
 NH3        2     558.300   2.900     1.470     0.000     1.0
 ALCL2NH2   2     472.000   5.127     0.000     0.000     1.0

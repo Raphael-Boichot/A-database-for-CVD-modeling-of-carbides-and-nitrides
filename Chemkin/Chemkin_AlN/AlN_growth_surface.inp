@@ -1,12 +1,21 @@
 !----------------------------------------------------------------------
-! SECTION 3 : MECANISME DE SURFACE (SITE AlN_surface)
+! SURFACE MECHANISM
 !----------------------------------------------------------------------
+
 SITE/AlN_surface/ SDEN/1.32E-08/
-  AL(S)  N(S)
+  E(S)  N(S)
 END
 
+BULK ALN(B) / 3.26 /
+
 REACTIONS CAL/MOLE
-! Croissance AlN - Mecanisme Boichot
-ALCL3+N(S)=>AL(S)+3CL          1.00E+14   0.00      0.0 !
-NH3+AL(S)=>ALN(B)+N(S)+1.5H2   1.00E+12   0.00      0.0 !
+
+! 1. Adsorption of Al on an N site
+! E(S) has a mass of zero to mimics the original mechanism and fit with the CHEMKIN formalism (mass balanced forced)
+! consider E(S) as an aluminium open site and it is the same as the original mechanism
+ALCL3 + N(S) => ALN(B) + E(S) + 3CL          1.00E+14   0.00      0.0
+
+! 2. Adsorption of N on an open aluminium site
+NH3 + E(S) => N(S) + 1.5H2                   1.00E+12   0.00      0.0
+
 END
