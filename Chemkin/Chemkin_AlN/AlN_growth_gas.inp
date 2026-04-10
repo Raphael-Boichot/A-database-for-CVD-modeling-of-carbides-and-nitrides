@@ -1,5 +1,5 @@
 !----------------------------------------------------------------------
-! GAS-PHASE MECHANISM FOR ALN GROWTH
+! GAS-PHASE MECHANISM FOR ALN GROWTH (Updated from .out kinetics)
 !----------------------------------------------------------------------
 
 ELEMENTS
@@ -10,21 +10,14 @@ SPECIES
   ALCL3 NH3 ALCL2NH2 HCL H CL CL2 H2
 END
 
-REACTIONS  CAL/MOLE
-!
-! 1. Formation of Intermediate
-ALCL3 + NH3 = ALCL2NH2 + HCL                4.21E+08   0.00   8346.2 
-!
-! 2. Recombination/Dissociation with Third Body (M)
-H + CL + M = HCL + M                        7.20E+21  -2.00      0.0 
-2CL + M = CL2 + M                           2.00E+14   0.00  -3558.1 
-H2 + M = 2H + M                             2.20E+14   0.00 190987.8
-!
-! 3. Exchange Reactions
-H + HCL = CL + H2                           1.69E+13   0.00   8222.0 
-CL2 + H = CL + HCL                          8.60E+13   0.00   2329.8 
-!
-! 4. H2-Specific Recombination
-2H + H2 = 2H2                               9.70E+16  -0.60      0.0 
+REACTIONS KELVINS
+
+ALCL3 + NH3 = ALCL2NH2 + HCL                4.210E+08   0.000   4200.0
+H + CL + M = HCL + M                        7.200E+21  -2.000      0.0
+2CL + M = CL2 + M                           2.000E+14   0.000   -900.0
+HCL + H = CL + H2                           1.690E+13   0.000   2100.0
+H + CL2 = HCL + CL                          8.600E+13   0.000    590.0
+2H + H2 = 2H2                               9.700E+16  -0.600      0.0
+H2 + M = 2H + M                             2.200E+14   0.000  48000.0
 
 END
