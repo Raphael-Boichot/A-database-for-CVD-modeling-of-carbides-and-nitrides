@@ -1,4 +1,4 @@
-**WARNING: CFD-Ace files won't be updated anymore as I now work with ANSYS Fluent**
+**WARNING: CFD-Ace files won't be updated anymore as I now work with ANSYS Fluent. Chemkin files can be used instead, at your own risks**
 
 ## Public repository of databases for modeling the Chemical Vapor Deposition of some ceramics with CFD-Ace
 
