@@ -1,0 +1,20 @@
+!----------------------------------------------------------------------
+! SURFACE MECHANISM
+!----------------------------------------------------------------------
+
+SITE/AlN_surface/ SDEN/2.04E-09/
+  E(S)  N(S)
+END
+
+BULK BN(B) / 2.25 /
+
+REACTIONS KELVINS
+
+! E(S) has a mass of zero to mimics the original mechanism and fit with the CHEMKIN formalism (mass balanced forced)
+! consider E(S) as an boron open site and it is the same as the original mechanism
+NH3 + E(S) => N(S) + 3H                      1.236700E+11   0.50   4532.0
+BCL3 + N(S) => BN(B) + E(S) + 3CL            4.386290E+10   0.50   17692.0
+BCL2NH2 + E(S) => 2HCL + BN(B) + E(S)        5.203950E+11   0.50   8427.0
+BCL2NH2 + N(S) => 2HCL + BN(B) + N(S)        5.203950E+11   0.50   8427.0
+
+END
