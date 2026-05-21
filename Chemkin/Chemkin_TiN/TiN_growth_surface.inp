@@ -1,0 +1,18 @@
+!----------------------------------------------------------------------
+! SURFACE MECHANISM FOR TIN GROWTH (Converted from CFD-ACE+ kinetics)
+!----------------------------------------------------------------------
+
+SITE/TiN_surface/ SDEN/1.80E-08/
+  E(S)  N(S)
+END
+
+BULK TIN(B) / 5.40 /
+
+REACTIONS KELVINS
+
+! E(S) has a mass of zero to mimics the original mechanism and fit with the CHEMKIN formalism (mass balanced forced)
+! consider E(S) as an titanium open site and it is the same as the original mechanism
+TICL3 + N(S) => TIN(B) + E(S) + 3CL          1.000E+14   0.00   4900.0
+NH3 + E(S) => N(S) + 1.5H2                   2.400E+11   0.00   4900.0
+
+END
