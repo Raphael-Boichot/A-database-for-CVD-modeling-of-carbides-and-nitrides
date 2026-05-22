@@ -1,0 +1,17 @@
+!----------------------------------------------------------------------
+! GAS-PHASE MECHANISM FOR ALN GROWTH (Updated from .out kinetics)
+!----------------------------------------------------------------------
+
+ELEMENTS
+  C H CR N
+END
+
+SPECIES
+  BBC MBC C6H6_BBC C6H6 H2 C2H2 C6H5CH3 N2
+END
+
+REACTIONS KELVINS
+
+BBC => MBC + C6H6_BBC  8.000000E+04  0.500  7000.0
+
+END
