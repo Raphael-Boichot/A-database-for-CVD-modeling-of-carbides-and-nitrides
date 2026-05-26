@@ -1,0 +1,17 @@
+8
+species=ALCL3            mw=133.3405
+species=NH3              mw=17.03061
+species=ALCL2NH2         mw=113.9101
+species=HCL              mw=36.46097
+species=H                mw=1.007970
+species=CL               mw=35.45300
+species=CL2              mw=70.90600
+species=H2               mw=2.015940
+7
+reaction=ALCL3+NH3<=>ALCL2NH2+HCL
+reaction=H+CL+M<=>HCL+M
+reaction=2CL+M<=>CL2+M
+reaction=HCL+H<=>CL+H2
+reaction=H+CL2<=>HCL+CL
+reaction=2H+H2<=>2H2
+reaction=H2+M<=>2H+M

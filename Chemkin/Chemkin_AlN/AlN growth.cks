@@ -1,0 +1,21 @@
+#Convert from CFD-ACE to Chemkin, 2026
+#Tue May 26 16:41:20 CEST 2026
+FIT_TRANSPORT_PROPERTIES=1
+C\:\\Users\\boichot\\Downloads\\A-database-for-CVD-modeling-of-carbides-and-nitrides-main\\Chemkin\\Chemkin_AlN__OUT_SURF_ASC=C\:\\Users\\boichot\\Downloads\\A-database-for-CVD-modeling-of-carbides-and-nitrides-main\\Chemkin\\Chemkin_AlN\\AlN growth_surf.asc
+IN_SURF_INPUT=C\:\\Users\\boichot\\Downloads\\A-database-for-CVD-modeling-of-carbides-and-nitrides-main\\Chemkin\\Chemkin_AlN\\AlN_growth_surface.inp
+C\:\\Users\\boichot\\Downloads\\A-database-for-CVD-modeling-of-carbides-and-nitrides-main\\Chemkin\\Chemkin_AlN__OUT_TRAN_ASC=C\:\\Users\\boichot\\Downloads\\A-database-for-CVD-modeling-of-carbides-and-nitrides-main\\Chemkin\\Chemkin_AlN\\AlN growth_gtran.asc
+C\:\\Users\\boichot\\Downloads\\A-database-for-CVD-modeling-of-carbides-and-nitrides-main\\Chemkin\\Chemkin_AlN__OUT_XML_PARAMETERS=C\:\\Users\\boichot\\Downloads\\A-database-for-CVD-modeling-of-carbides-and-nitrides-main\\Chemkin\\Chemkin_AlN\\AlN growth.xml
+Chemistry\ Set\ Name=AlN growth
+IN_THERM_DB=C\:\\Users\\boichot\\Downloads\\A-database-for-CVD-modeling-of-carbides-and-nitrides-main\\Chemkin\\Chemkin_AlN\\AlN_growth_thermo.dat
+C\:\\Users\\boichot\\Downloads\\A-database-for-CVD-modeling-of-carbides-and-nitrides-main\\Chemkin\\Chemkin_AlN__OUT_CHEM_OUTPUT=C\:\\Users\\boichot\\Downloads\\A-database-for-CVD-modeling-of-carbides-and-nitrides-main\\Chemkin\\Chemkin_AlN\\AlN growth_gas.out
+C\:\\Users\\boichot\\Downloads\\A-database-for-CVD-modeling-of-carbides-and-nitrides-main\\Chemkin\\Chemkin_AlN__OUT_TRAN_OUTPUT=C\:\\Users\\boichot\\Downloads\\A-database-for-CVD-modeling-of-carbides-and-nitrides-main\\Chemkin\\Chemkin_AlN\\AlN growth_gtran.out
+IN_LIQUID_DB=
+C\:\\Users\\boichot\\Downloads\\A-database-for-CVD-modeling-of-carbides-and-nitrides-main\\Chemkin\\Chemkin_AlN__OUT_SURF_OUTPUT=C\:\\Users\\boichot\\Downloads\\A-database-for-CVD-modeling-of-carbides-and-nitrides-main\\Chemkin\\Chemkin_AlN\\AlN growth_surf.out
+C\:\\Users\\boichot\\Downloads\\A-database-for-CVD-modeling-of-carbides-and-nitrides-main\\Chemkin\\Chemkin_AlN__OUT_SURF_SPECIES=C\:\\Users\\boichot\\Downloads\\A-database-for-CVD-modeling-of-carbides-and-nitrides-main\\Chemkin\\Chemkin_AlN\\AlN growth_surf.asu
+SYSTEM_FLAG=FALSE
+IN_TRANS_DB=C\:\\Users\\boichot\\Downloads\\A-database-for-CVD-modeling-of-carbides-and-nitrides-main\\Chemkin\\Chemkin_AlN\\AlN_growth_transport.dat
+IN_CHEM_INPUT=C\:\\Users\\boichot\\Downloads\\A-database-for-CVD-modeling-of-carbides-and-nitrides-main\\Chemkin\\Chemkin_AlN\\AlN_growth_gas.inp
+C\:\\Users\\boichot\\Downloads\\A-database-for-CVD-modeling-of-carbides-and-nitrides-main\\Chemkin\\Chemkin_AlN__Run_Result=PREPROCESS_OK_42
+C\:\\Users\\boichot\\Downloads\\A-database-for-CVD-modeling-of-carbides-and-nitrides-main\\Chemkin\\Chemkin_AlN__OUT_CHEM_ASC=C\:\\Users\\boichot\\Downloads\\A-database-for-CVD-modeling-of-carbides-and-nitrides-main\\Chemkin\\Chemkin_AlN\\AlN growth_gas.asc
+C\:\\Users\\boichot\\Downloads\\A-database-for-CVD-modeling-of-carbides-and-nitrides-main\\Chemkin\\Chemkin_AlN__OUT_CHEM_SPECIES=C\:\\Users\\boichot\\Downloads\\A-database-for-CVD-modeling-of-carbides-and-nitrides-main\\Chemkin\\Chemkin_AlN\\AlN growth_gas.asu
+Chemistry\ Set\ Description=Convert from CFD-ACE to Chemkin, 2026
