@@ -1,0 +1,14 @@
+1
+material=MATERIAL1       
+1
+surfacephase=TiN_surface     
+1
+bulkphase=BULK1           
+2
+surfacespecies=E(S)             mw=0.000000
+surfacespecies=N(S)             mw=14.00670
+1
+bulkspecies=TIN(B)           mw=61.90670
+2
+surfacereaction=TICL3+N(S)=>TIN(B)+E(S)+3CL
+surfacereaction=1.00NH3+1.00E(S)=>1.00N(S)+1.50H2

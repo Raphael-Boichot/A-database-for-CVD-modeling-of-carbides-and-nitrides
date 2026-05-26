@@ -1,0 +1,74 @@
+
+
+     *****************************************************************
+     *                     ANSYS Chemkin 2025 R1                     *
+     *                       SURF Application                        *
+     *                 SURFACE MECHANISM INTERPRETER                 *
+     *                 Copyright(c) 2025 ANSYS, Inc.                 *                
+     *Run Date and Time: May 26, 2026   16:55:21     120 min from UTC*
+     *****************************************************************
+
+
+
+                WORKING SPACE REQUIREMENTS
+                 PROVIDED        REQUIRED 
+ LOGICAL              151            151
+ INTEGER              714            714
+ REAL                 736            736
+ CHARACTER             65             65
+
+This problem requires      0.006MB of memory for the REAL array.
+
+Initializing Chemkin Gas-phase Library a component of ANSYS Chemkin 2025 R1, Build date: Nov 11, 2024
+This and All Other Chemkin(R) Libraries are Copyright (c) 2025 Ansys, Inc.  Unauthorized use, distribution, or duplication is prohibited.  This product is subject to U.S. laws governing export and re-export.  For full Legal Notice, see documentation.
+
+
+LICENSE INFORMATION: 
+ 
+
+LicNum: unknown                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+ -------------------------------------------------------------------------------
+ SPECIES                MOLECULAR                        ELEMENT COUNT
+ CONSIDERED             WEIGHT       Density    Nsites           TI        CL        N         H 
+ -------------------------------------------------------------------------------
+
+ Gas phase species:
+   1. TICL3            1.5426E+02                                1         3         0         0
+   2. NH3              1.7031E+01                                0         0         1         3
+   3. HCL              3.6461E+01                                0         1         0         1
+   4. H                1.0080E+00                                0         0         0         1
+   5. CL               3.5453E+01                                0         1         0         0
+   6. CL2              7.0906E+01                                0         2         0         0
+   7. H2               2.0159E+00                                0         0         0         2
+
+ SITE: TiN_surface                0.180E-07 moles/cm**2
+   8. E(S)             0.0000E+00                   1            0         0         0         0
+   9. N(S)             1.4007E+01                   1            0         0         1         0
+
+ BULK: BULK1           
+  10. TIN(B)           6.1907E+01 5.400E+00 g/cm**3              1         0         1         0
+ 
+ -------------------------------------------------------------------------------
+                                                      (k = A T**b exp(-E/RT))
+      SURFACE REACTIONS CONSIDERED                      A        b        E
+
+   1. TICL3+N(S)=>TIN(B)+E(S)+3CL                    1.00E+14    0.0     4900.0
+   2. NH3+E(S)=>N(S)+1.5H2                           2.40E+11    0.0     4900.0
+
+ UNITS for the preceding reactions (unless otherwise noted):
+       A units mole-cm-sec-K, E units Kelvins
+ 
+ 
+ -------------------------------------------------------------------------------
+
+
+
+ NO ERROR WRITING SURFACE LINKFILE:
+ ASCII Version 4.6.0 surface linkfile TiN growth_surf.asc written.
+
+ WORKING SPACE REQUIREMENTS ARE
+    INTEGER:      354
+    REAL:         326
+    CHARACTER:     18
+
+ Total CPUtime: 0.006 (seconds)

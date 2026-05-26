@@ -1,0 +1,21 @@
+#
+#Tue May 26 16:55:21 CEST 2026
+FIT_TRANSPORT_PROPERTIES=1
+IN_SURF_INPUT=C\:\\Users\\boichot\\Downloads\\A-database-for-CVD-modeling-of-carbides-and-nitrides-main\\Chemkin\\Chemkin_TiN\\TiN_growth_surface.inp
+C\:\\Users\\boichot\\Downloads\\A-database-for-CVD-modeling-of-carbides-and-nitrides-main\\Chemkin\\Chemkin_TiN__OUT_CHEM_ASC=C\:\\Users\\boichot\\Downloads\\A-database-for-CVD-modeling-of-carbides-and-nitrides-main\\Chemkin\\Chemkin_TiN\\TiN growth_gas.asc
+C\:\\Users\\boichot\\Downloads\\A-database-for-CVD-modeling-of-carbides-and-nitrides-main\\Chemkin\\Chemkin_TiN__OUT_CHEM_SPECIES=C\:\\Users\\boichot\\Downloads\\A-database-for-CVD-modeling-of-carbides-and-nitrides-main\\Chemkin\\Chemkin_TiN\\TiN growth_gas.asu
+C\:\\Users\\boichot\\Downloads\\A-database-for-CVD-modeling-of-carbides-and-nitrides-main\\Chemkin\\Chemkin_TiN__OUT_SURF_OUTPUT=C\:\\Users\\boichot\\Downloads\\A-database-for-CVD-modeling-of-carbides-and-nitrides-main\\Chemkin\\Chemkin_TiN\\TiN growth_surf.out
+Chemistry\ Set\ Name=TiN growth
+IN_THERM_DB=C\:\\Users\\boichot\\Downloads\\A-database-for-CVD-modeling-of-carbides-and-nitrides-main\\Chemkin\\Chemkin_TiN\\TiN_growth_thermo.dat
+IN_LIQUID_DB=
+C\:\\Users\\boichot\\Downloads\\A-database-for-CVD-modeling-of-carbides-and-nitrides-main\\Chemkin\\Chemkin_TiN__OUT_SURF_ASC=C\:\\Users\\boichot\\Downloads\\A-database-for-CVD-modeling-of-carbides-and-nitrides-main\\Chemkin\\Chemkin_TiN\\TiN growth_surf.asc
+C\:\\Users\\boichot\\Downloads\\A-database-for-CVD-modeling-of-carbides-and-nitrides-main\\Chemkin\\Chemkin_TiN__Run_Result=PREPROCESS_OK_42
+C\:\\Users\\boichot\\Downloads\\A-database-for-CVD-modeling-of-carbides-and-nitrides-main\\Chemkin\\Chemkin_TiN__OUT_XML_PARAMETERS=C\:\\Users\\boichot\\Downloads\\A-database-for-CVD-modeling-of-carbides-and-nitrides-main\\Chemkin\\Chemkin_TiN\\TiN growth.xml
+SYSTEM_FLAG=FALSE
+IN_TRANS_DB=C\:\\Users\\boichot\\Downloads\\A-database-for-CVD-modeling-of-carbides-and-nitrides-main\\Chemkin\\Chemkin_TiN\\TiN_growth_transport.dat
+C\:\\Users\\boichot\\Downloads\\A-database-for-CVD-modeling-of-carbides-and-nitrides-main\\Chemkin\\Chemkin_TiN__OUT_SURF_SPECIES=C\:\\Users\\boichot\\Downloads\\A-database-for-CVD-modeling-of-carbides-and-nitrides-main\\Chemkin\\Chemkin_TiN\\TiN growth_surf.asu
+IN_CHEM_INPUT=C\:\\Users\\boichot\\Downloads\\A-database-for-CVD-modeling-of-carbides-and-nitrides-main\\Chemkin\\Chemkin_TiN\\TiN_growth_gas.inp
+C\:\\Users\\boichot\\Downloads\\A-database-for-CVD-modeling-of-carbides-and-nitrides-main\\Chemkin\\Chemkin_TiN__OUT_CHEM_OUTPUT=C\:\\Users\\boichot\\Downloads\\A-database-for-CVD-modeling-of-carbides-and-nitrides-main\\Chemkin\\Chemkin_TiN\\TiN growth_gas.out
+C\:\\Users\\boichot\\Downloads\\A-database-for-CVD-modeling-of-carbides-and-nitrides-main\\Chemkin\\Chemkin_TiN__OUT_TRAN_OUTPUT=C\:\\Users\\boichot\\Downloads\\A-database-for-CVD-modeling-of-carbides-and-nitrides-main\\Chemkin\\Chemkin_TiN\\TiN growth_gtran.out
+Chemistry\ Set\ Description=
+C\:\\Users\\boichot\\Downloads\\A-database-for-CVD-modeling-of-carbides-and-nitrides-main\\Chemkin\\Chemkin_TiN__OUT_TRAN_ASC=C\:\\Users\\boichot\\Downloads\\A-database-for-CVD-modeling-of-carbides-and-nitrides-main\\Chemkin\\Chemkin_TiN\\TiN growth_gtran.asc
