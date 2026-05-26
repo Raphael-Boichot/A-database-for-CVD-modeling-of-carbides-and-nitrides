@@ -1,0 +1,16 @@
+1
+material=MATERIAL1       
+1
+surfacephase=AlN_surface     
+1
+bulkphase=BULK1           
+2
+surfacespecies=E(S)             mw=0.000000
+surfacespecies=N(S)             mw=14.00670
+1
+bulkspecies=BN(B)            mw=24.81770
+4
+surfacereaction=NH3+E(S)=>N(S)+3H
+surfacereaction=BCL3+N(S)=>BN(B)+E(S)+3CL
+surfacereaction=BCL2NH2+E(S)=>2HCL+BN(B)+E(S)
+surfacereaction=BCL2NH2+N(S)=>2HCL+BN(B)+N(S)

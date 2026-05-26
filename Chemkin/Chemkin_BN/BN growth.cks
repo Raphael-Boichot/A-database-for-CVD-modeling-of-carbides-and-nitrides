@@ -1,0 +1,21 @@
+#
+#Tue May 26 16:58:33 CEST 2026
+C\:\\Users\\boichot\\Downloads\\A-database-for-CVD-modeling-of-carbides-and-nitrides-main\\Chemkin\\Chemkin_BN__OUT_TRAN_OUTPUT=C\:\\Users\\boichot\\Downloads\\A-database-for-CVD-modeling-of-carbides-and-nitrides-main\\Chemkin\\Chemkin_BN\\BN growth_gtran.out
+FIT_TRANSPORT_PROPERTIES=1
+IN_SURF_INPUT=C\:\\Users\\boichot\\Downloads\\A-database-for-CVD-modeling-of-carbides-and-nitrides-main\\Chemkin\\Chemkin_BN\\BN_growth_surface.inp
+C\:\\Users\\boichot\\Downloads\\A-database-for-CVD-modeling-of-carbides-and-nitrides-main\\Chemkin\\Chemkin_BN__OUT_CHEM_ASC=C\:\\Users\\boichot\\Downloads\\A-database-for-CVD-modeling-of-carbides-and-nitrides-main\\Chemkin\\Chemkin_BN\\BN growth_gas.asc
+C\:\\Users\\boichot\\Downloads\\A-database-for-CVD-modeling-of-carbides-and-nitrides-main\\Chemkin\\Chemkin_BN__OUT_SURF_ASC=C\:\\Users\\boichot\\Downloads\\A-database-for-CVD-modeling-of-carbides-and-nitrides-main\\Chemkin\\Chemkin_BN\\BN growth_surf.asc
+Chemistry\ Set\ Name=BN growth
+IN_THERM_DB=C\:\\Users\\boichot\\Downloads\\A-database-for-CVD-modeling-of-carbides-and-nitrides-main\\Chemkin\\Chemkin_BN\\BN_growth_thermo.dat
+C\:\\Users\\boichot\\Downloads\\A-database-for-CVD-modeling-of-carbides-and-nitrides-main\\Chemkin\\Chemkin_BN__OUT_CHEM_OUTPUT=C\:\\Users\\boichot\\Downloads\\A-database-for-CVD-modeling-of-carbides-and-nitrides-main\\Chemkin\\Chemkin_BN\\BN growth_gas.out
+IN_LIQUID_DB=
+C\:\\Users\\boichot\\Downloads\\A-database-for-CVD-modeling-of-carbides-and-nitrides-main\\Chemkin\\Chemkin_BN__OUT_CHEM_SPECIES=C\:\\Users\\boichot\\Downloads\\A-database-for-CVD-modeling-of-carbides-and-nitrides-main\\Chemkin\\Chemkin_BN\\BN growth_gas.asu
+SYSTEM_FLAG=FALSE
+C\:\\Users\\boichot\\Downloads\\A-database-for-CVD-modeling-of-carbides-and-nitrides-main\\Chemkin\\Chemkin_BN__OUT_XML_PARAMETERS=C\:\\Users\\boichot\\Downloads\\A-database-for-CVD-modeling-of-carbides-and-nitrides-main\\Chemkin\\Chemkin_BN\\BN growth.xml
+IN_TRANS_DB=C\:\\Users\\boichot\\Downloads\\A-database-for-CVD-modeling-of-carbides-and-nitrides-main\\Chemkin\\Chemkin_BN\\BN_growth_transport.dat
+C\:\\Users\\boichot\\Downloads\\A-database-for-CVD-modeling-of-carbides-and-nitrides-main\\Chemkin\\Chemkin_BN__Run_Result=PREPROCESS_OK_42
+IN_CHEM_INPUT=C\:\\Users\\boichot\\Downloads\\A-database-for-CVD-modeling-of-carbides-and-nitrides-main\\Chemkin\\Chemkin_BN\\BN_growth_gas.inp
+C\:\\Users\\boichot\\Downloads\\A-database-for-CVD-modeling-of-carbides-and-nitrides-main\\Chemkin\\Chemkin_BN__OUT_SURF_OUTPUT=C\:\\Users\\boichot\\Downloads\\A-database-for-CVD-modeling-of-carbides-and-nitrides-main\\Chemkin\\Chemkin_BN\\BN growth_surf.out
+C\:\\Users\\boichot\\Downloads\\A-database-for-CVD-modeling-of-carbides-and-nitrides-main\\Chemkin\\Chemkin_BN__OUT_TRAN_ASC=C\:\\Users\\boichot\\Downloads\\A-database-for-CVD-modeling-of-carbides-and-nitrides-main\\Chemkin\\Chemkin_BN\\BN growth_gtran.asc
+Chemistry\ Set\ Description=
+C\:\\Users\\boichot\\Downloads\\A-database-for-CVD-modeling-of-carbides-and-nitrides-main\\Chemkin\\Chemkin_BN__OUT_SURF_SPECIES=C\:\\Users\\boichot\\Downloads\\A-database-for-CVD-modeling-of-carbides-and-nitrides-main\\Chemkin\\Chemkin_BN\\BN growth_surf.asu

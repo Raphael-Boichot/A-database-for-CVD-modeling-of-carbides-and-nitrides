@@ -1,0 +1,14 @@
+8
+species=H                mw=1.007970
+species=CL               mw=35.45300
+species=HCL              mw=36.46097
+species=BCL3             mw=117.1700
+species=NH3              mw=17.03061
+species=BCL2NH2          mw=97.73964
+species=BCL(NH2)2        mw=78.30928
+species=B(NH2)3          mw=58.87892
+4
+reaction=H+CL+M<=>HCL+M
+reaction=BCL3+NH3<=>HCL+BCL2NH2
+reaction=NH3+BCL2NH2<=>HCL+BCL(NH2)2
+reaction=NH3+BCL(NH2)2<=>HCL+B(NH2)3

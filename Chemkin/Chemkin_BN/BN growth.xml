@@ -1,0 +1,360 @@
+<?xml version="1.0"?>
+<!-- DOCTYPE chemistrydata SYSTEM "chemistrydata.dtd" -->
+<chemistryset date="2026/05/26" time="16:58:33" release="4.5.0">
+<workspace CKSTRT="208" SKSTRT="213" MCSTRT="45"/>
+<gasphase>
+<comment type="line" line="1" source="inp">!----------------------------------------------------------------------</comment>
+<comment type="line" line="2" source="inp">! GAS-PHASE MECHANISM FOR ALN GROWTH (Updated from .out kinetics)</comment>
+<comment type="line" line="3" source="inp">!----------------------------------------------------------------------</comment>
+<elements>
+<element name="B"/>
+<element name="CL"/>
+<element name="N"/>
+<element name="H"/>
+</elements>
+<speciesset count="8">
+<species name="H" index="1">
+<thermodata species="H" date="" phase="G">
+<atom name="H" number="1"/>
+<data name="H298"> 5.2092443810000006E+001</data>
+<data name="S298"> 2.7386058223015599E+001</data>
+<temperature> 3.0000000000000000E+002</temperature>
+<temperature> 1.0000000000000000E+003</temperature>
+<temperature> 5.0000000000000000E+003</temperature>
+<coefficient> 2.5000000000000000E+000</coefficient>
+<coefficient> 0.0000000000000000E+000</coefficient>
+<coefficient> 0.0000000000000000E+000</coefficient>
+<coefficient> 0.0000000000000000E+000</coefficient>
+<coefficient> 0.0000000000000000E+000</coefficient>
+<coefficient> 2.5471630000000001E+004</coefficient>
+<coefficient>-4.6011760000000002E-001</coefficient>
+<coefficient> 2.5000000000000000E+000</coefficient>
+<coefficient> 0.0000000000000000E+000</coefficient>
+<coefficient> 0.0000000000000000E+000</coefficient>
+<coefficient> 0.0000000000000000E+000</coefficient>
+<coefficient> 0.0000000000000000E+000</coefficient>
+<coefficient> 2.5471630000000001E+004</coefficient>
+<coefficient>-4.6011760000000002E-001</coefficient>
+</thermodata>
+</species>
+<species name="CL" index="2">
+<thermodata species="CL" date="" phase="G">
+<atom name="CL" number="1"/>
+<data name="H298"> 2.8988418933386278E+001</data>
+<data name="S298"> 3.9454008379574574E+001</data>
+<temperature> 3.0000000000000000E+002</temperature>
+<temperature> 1.0000000000000000E+003</temperature>
+<temperature> 5.0000000000000000E+003</temperature>
+<coefficient> 2.9202370000000002E+000</coefficient>
+<coefficient>-3.5979849999999999E-004</coefficient>
+<coefficient> 1.2942940000000001E-007</coefficient>
+<coefficient>-2.1627760000000000E-011</coefficient>
+<coefficient> 1.3765170000000001E-015</coefficient>
+<coefficient> 1.3713379999999999E+004</coefficient>
+<coefficient> 3.2626900000000001E+000</coefficient>
+<coefficient> 2.3815770000000001E+000</coefficient>
+<coefficient> 8.8910789999999996E-004</coefficient>
+<coefficient> 4.0704760000000001E-007</coefficient>
+<coefficient>-2.1689429999999999E-009</coefficient>
+<coefficient> 1.1608270000000001E-012</coefficient>
+<coefficient> 1.3839990000000000E+004</coefficient>
+<coefficient> 6.0218179999999997E+000</coefficient>
+</thermodata>
+</species>
+<species name="HCL" index="3">
+<thermodata species="HCL" date="" phase="G">
+<atom name="CL" number="1"/>
+<atom name="H" number="1"/>
+<data name="H298">-2.2064147519961775E+001</data>
+<data name="S298"> 4.4640891031340182E+001</data>
+<temperature> 3.0000000000000000E+002</temperature>
+<temperature> 1.0000000000000000E+003</temperature>
+<temperature> 5.0000000000000000E+003</temperature>
+<coefficient> 2.7553350000000001E+000</coefficient>
+<coefficient> 1.4735810000000001E-003</coefficient>
+<coefficient>-4.9712539999999999E-007</coefficient>
+<coefficient> 8.1086580000000004E-011</coefficient>
+<coefficient>-5.0720630000000001E-015</coefficient>
+<coefficient>-1.1918059999999999E+004</coefficient>
+<coefficient> 6.5151159999999999E+000</coefficient>
+<coefficient> 3.3385340000000001E+000</coefficient>
+<coefficient> 1.2682069999999999E-003</coefficient>
+<coefficient>-3.6669169999999998E-006</coefficient>
+<coefficient> 4.7039920000000002E-009</coefficient>
+<coefficient>-1.8360110000000001E-012</coefficient>
+<coefficient>-1.2131510000000000E+004</coefficient>
+<coefficient> 3.1935549999999999E+000</coefficient>
+</thermodata>
+</species>
+<species name="BCL3" index="4">
+<thermodata species="BCL3" date="051496" phase="G">
+<atom name="B" number="1"/>
+<atom name="CL" number="3"/>
+<data name="H298">-9.6688615415778045E+001</data>
+<data name="S298"> 6.9455823100198614E+001</data>
+<temperature> 3.0000000000000000E+002</temperature>
+<temperature> 1.0000000000000000E+003</temperature>
+<temperature> 3.0000000000000000E+003</temperature>
+<coefficient> 8.2753630999999999E+000</coefficient>
+<coefficient> 2.5203824000000000E-003</coefficient>
+<coefficient>-1.5105616000000000E-006</coefficient>
+<coefficient> 4.1696295999999998E-010</coefficient>
+<coefficient>-4.3717163000000002E-014</coefficient>
+<coefficient>-5.1419839999999997E+004</coefficient>
+<coefficient>-1.3349513999999999E+001</coefficient>
+<coefficient> 3.0803194000000000E+000</coefficient>
+<coefficient> 2.4319377000000000E-002</coefficient>
+<coefficient>-3.7301543000000000E-005</coefficient>
+<coefficient> 2.7382117000000001E-008</coefficient>
+<coefficient>-7.8218402999999995E-012</coefficient>
+<coefficient>-5.0379629999999997E+004</coefficient>
+<coefficient> 1.1589219000000000E+001</coefficient>
+</thermodata>
+</species>
+<species name="NH3" index="5">
+<thermodata species="NH3" date="" phase="G">
+<atom name="N" number="1"/>
+<atom name="H" number="3"/>
+<data name="H298">-1.0973607169514940E+001</data>
+<data name="S298"> 4.6031412338993029E+001</data>
+<temperature> 3.0000000000000000E+002</temperature>
+<temperature> 1.0000000000000000E+003</temperature>
+<temperature> 5.0000000000000000E+003</temperature>
+<coefficient> 2.4619040000000001E+000</coefficient>
+<coefficient> 6.0591660000000004E-003</coefficient>
+<coefficient>-2.0049769999999999E-006</coefficient>
+<coefficient> 3.1360029999999997E-010</coefficient>
+<coefficient>-1.9383169999999999E-014</coefficient>
+<coefficient>-6.4932700000000004E+003</coefficient>
+<coefficient> 7.4720969999999998E+000</coefficient>
+<coefficient> 2.2043520000000001E+000</coefficient>
+<coefficient> 1.0114760000000000E-002</coefficient>
+<coefficient>-1.4652649999999999E-005</coefficient>
+<coefficient> 1.4472350000000000E-008</coefficient>
+<coefficient>-5.3285089999999997E-012</coefficient>
+<coefficient>-6.5254880000000003E+003</coefficient>
+<coefficient> 8.1271380000000004E+000</coefficient>
+</thermodata>
+</species>
+<species name="BCL2NH2" index="6">
+<thermodata species="BCL2NH2" date="051496" phase="G">
+<atom name="B" number="1"/>
+<atom name="CL" number="2"/>
+<atom name="N" number="1"/>
+<atom name="H" number="2"/>
+<data name="H298">-9.9308196359488548E+001</data>
+<data name="S298"> 7.0537360646074291E+001</data>
+<temperature> 3.0000000000000000E+002</temperature>
+<temperature> 1.0000000000000000E+003</temperature>
+<temperature> 3.0000000000000000E+003</temperature>
+<coefficient> 8.3411997000000007E+000</coefficient>
+<coefficient> 7.6665965999999997E-003</coefficient>
+<coefficient>-3.2517435999999999E-006</coefficient>
+<coefficient> 6.6381355000000000E-010</coefficient>
+<coefficient>-5.4527458999999999E-014</coefficient>
+<coefficient>-5.3007597999999998E+004</coefficient>
+<coefficient>-1.4734496999999999E+001</coefficient>
+<coefficient> 1.6111386000000001E+000</coefficient>
+<coefficient> 3.6173832000000003E-002</coefficient>
+<coefficient>-4.9919402999999997E-005</coefficient>
+<coefficient> 3.5397671999999998E-008</coefficient>
+<coefficient>-9.8978999000000004E-012</coefficient>
+<coefficient>-5.1690057999999997E+004</coefficient>
+<coefficient> 1.7464603000000000E+001</coefficient>
+</thermodata>
+</species>
+<species name="BCL(NH2)2" index="7">
+<thermodata species="BCL(NH2)2" date="051496" phase="G">
+<atom name="B" number="1"/>
+<atom name="CL" number="1"/>
+<atom name="N" number="2"/>
+<atom name="H" number="4"/>
+<data name="H298">-9.1330404177398236E+001</data>
+<data name="S298"> 7.2615211785891489E+001</data>
+<temperature> 3.0000000000000000E+002</temperature>
+<temperature> 1.0000000000000000E+003</temperature>
+<temperature> 3.0000000000000000E+003</temperature>
+<coefficient> 8.0587678999999994E+000</coefficient>
+<coefficient> 1.5654719000000001E-002</coefficient>
+<coefficient>-8.1648086000000000E-006</coefficient>
+<coefficient> 2.0318400999999999E-009</coefficient>
+<coefficient>-1.9694852000000000E-013</coefficient>
+<coefficient>-4.9218637000000002E+004</coefficient>
+<coefficient>-1.4234880000000000E+001</coefficient>
+<coefficient> 1.9105125000000001E+000</coefficient>
+<coefficient> 4.1847052000000003E-002</coefficient>
+<coefficient>-5.1964008000000001E-005</coefficient>
+<coefficient> 3.5646261000000001E-008</coefficient>
+<coefficient>-1.0056247999999999E-011</coefficient>
+<coefficient>-4.7998559999999998E+004</coefficient>
+<coefficient> 1.5203049000000000E+001</coefficient>
+</thermodata>
+</species>
+<species name="B(NH2)3" index="8">
+<thermodata species="B(NH2)3" date="051496" phase="G">
+<atom name="B" number="1"/>
+<atom name="N" number="3"/>
+<atom name="H" number="6"/>
+<data name="H298">-7.4562474341050176E+001</data>
+<data name="S298"> 7.7882836554281468E+001</data>
+<temperature> 3.0000000000000000E+002</temperature>
+<temperature> 1.0000000000000000E+003</temperature>
+<temperature> 3.0000000000000000E+003</temperature>
+<coefficient> 8.4127036000000004E+000</coefficient>
+<coefficient> 1.9469817000000000E-002</coefficient>
+<coefficient>-8.9816447000000005E-006</coefficient>
+<coefficient> 1.9891808000000002E-009</coefficient>
+<coefficient>-1.7338986999999999E-013</coefficient>
+<coefficient>-4.0917864999999998E+004</coefficient>
+<coefficient>-1.4408348999999999E+001</coefficient>
+<coefficient> 3.6530985000000000E+000</coefficient>
+<coefficient> 4.1482257000000002E-002</coefficient>
+<coefficient>-4.6943381000000003E-005</coefficient>
+<coefficient> 3.0913754999999999E-008</coefficient>
+<coefficient>-8.3890617999999992E-012</coefficient>
+<coefficient>-4.0098576999999997E+004</coefficient>
+<coefficient> 7.8506603000000004E+000</coefficient>
+</thermodata>
+</species>
+</speciesset>
+<reactions unit="KELVIN">
+<reaction formula="H+CL+M=HCL+M">
+<rate A=" 7.20000000E+021" B="-2.00000000E+000" E=" 0.00000000E+000">
+</rate>
+</reaction>
+<reaction formula="BCL3+NH3=HCL+BCL2NH2">
+<rate A=" 1.13569000E+012" B=" 0.00000000E+000" E=" 6.75600000E+003">
+</rate>
+</reaction>
+<reaction formula="NH3+BCL2NH2=HCL+BCL(NH2)2">
+<rate A=" 3.88000000E+011" B=" 0.00000000E+000" E=" 9.30100000E+003">
+</rate>
+</reaction>
+<reaction formula="NH3+BCL(NH2)2=HCL+B(NH2)3">
+<rate A=" 1.66000000E+012" B=" 0.00000000E+000" E=" 1.00250000E+004">
+</rate>
+</reaction>
+</reactions>
+</gasphase>
+<transport>
+<transportdata species="H" geometry="0" ljwell=" 3.700000E+01" ljdiam=" 2.708000E+00" dipole=" 0.000000E+00" polar=" 0.000000E+00" rotat=" 1.000000E+00">
+</transportdata>
+<transportdata species="CL" geometry="0" ljwell=" 1.308000E+02" ljdiam=" 3.613000E+00" dipole=" 0.000000E+00" polar=" 0.000000E+00" rotat=" 1.000000E+00">
+</transportdata>
+<transportdata species="HCL" geometry="1" ljwell=" 3.447000E+02" ljdiam=" 3.339000E+00" dipole=" 1.100000E+00" polar=" 0.000000E+00" rotat=" 1.000000E+00">
+</transportdata>
+<transportdata species="BCL3" geometry="2" ljwell=" 3.377000E+02" ljdiam=" 5.127000E+00" dipole=" 0.000000E+00" polar=" 0.000000E+00" rotat=" 1.000000E+00">
+<comment type="line" line="1" source="dat">! Species   Geom  eps/k     sigma     dipole    polar     Z_rot[dat]</comment>
+</transportdata>
+<transportdata species="NH3" geometry="2" ljwell=" 5.583000E+02" ljdiam=" 2.900000E+00" dipole=" 1.470000E+00" polar=" 0.000000E+00" rotat=" 1.000000E+00">
+</transportdata>
+<transportdata species="BCL2NH2" geometry="2" ljwell=" 3.377000E+02" ljdiam=" 5.127000E+00" dipole=" 0.000000E+00" polar=" 0.000000E+00" rotat=" 1.000000E+00">
+</transportdata>
+<transportdata species="BCL(NH2)2" geometry="2" ljwell=" 3.377000E+02" ljdiam=" 5.127000E+00" dipole=" 0.000000E+00" polar=" 0.000000E+00" rotat=" 1.000000E+00">
+</transportdata>
+<transportdata species="B(NH2)3" geometry="2" ljwell=" 3.377000E+02" ljdiam=" 5.127000E+00" dipole=" 0.000000E+00" polar=" 0.000000E+00" rotat=" 1.000000E+00">
+</transportdata>
+</transport>
+<surface material="MATERIAL1">
+<comment type="line" line="1" source="inp">!----------------------------------------------------------------------</comment>
+<comment type="line" line="2" source="inp">! SURFACE MECHANISM</comment>
+<comment type="line" line="3" source="inp">!----------------------------------------------------------------------</comment>
+<site name="AlN_surface" density=" 2.04000000E-009">
+<species name="E(S)" occupancy=" 1">
+<thermodata species="E(S)" date="" phase="G">
+<data name="H298"> 0.0000000000000000E+000</data>
+<data name="S298"> 0.0000000000000000E+000</data>
+<temperature> 3.0000000000000000E+002</temperature>
+<temperature> 1.0000000000000000E+003</temperature>
+<temperature> 5.0000000000000000E+003</temperature>
+<coefficient> 0.0000000000000000E+000</coefficient>
+<coefficient> 0.0000000000000000E+000</coefficient>
+<coefficient> 0.0000000000000000E+000</coefficient>
+<coefficient> 0.0000000000000000E+000</coefficient>
+<coefficient> 0.0000000000000000E+000</coefficient>
+<coefficient> 0.0000000000000000E+000</coefficient>
+<coefficient> 0.0000000000000000E+000</coefficient>
+<coefficient> 0.0000000000000000E+000</coefficient>
+<coefficient> 0.0000000000000000E+000</coefficient>
+<coefficient> 0.0000000000000000E+000</coefficient>
+<coefficient> 0.0000000000000000E+000</coefficient>
+<coefficient> 0.0000000000000000E+000</coefficient>
+<coefficient> 0.0000000000000000E+000</coefficient>
+<coefficient> 0.0000000000000000E+000</coefficient>
+<comment type="line" line="1" source="dat">! Open site (Vacant boron site) - Mass 0, no elements</comment>
+</thermodata>
+</species>
+<species name="N(S)" occupancy=" 1">
+<thermodata species="N(S)" date="" phase="S">
+<atom name="N" number="1"/>
+<data name="H298"> 1.1297337779641360E+002</data>
+<data name="S298"> 3.6610680595101712E+001</data>
+<temperature> 3.0000000000000000E+002</temperature>
+<temperature> 1.0000000000000000E+003</temperature>
+<temperature> 4.0000000000000000E+003</temperature>
+<coefficient> 2.5002635999999998E+000</coefficient>
+<coefficient>-1.8249511999999999E-017</coefficient>
+<coefficient> 1.7497303000000000E-020</coefficient>
+<coefficient>-5.9119759999999997E-024</coefficient>
+<coefficient> 6.4865578999999999E-028</coefficient>
+<coefficient> 5.6111175999999999E+004</coefficient>
+<coefficient> 4.1808680000000003E+000</coefficient>
+<coefficient> 2.5002635999999998E+000</coefficient>
+<coefficient>-2.6020851999999999E-017</coefficient>
+<coefficient> 5.6806236999999997E-020</coefficient>
+<coefficient>-5.0744042999999997E-023</coefficient>
+<coefficient> 1.6250734000000001E-026</coefficient>
+<coefficient> 5.6111175999999999E+004</coefficient>
+<coefficient> 4.1808680000000003E+000</coefficient>
+</thermodata>
+</species>
+</site>
+<bulk name="BULK1">
+<species name="BN(B)" density=" 2.25000000E+000">
+<thermodata species="BN(B)" date="" phase="S">
+<atom name="B" number="1"/>
+<atom name="N" number="1"/>
+<data name="H298"> 0.0000000000000000E+000</data>
+<data name="S298"> 0.0000000000000000E+000</data>
+<temperature> 1.0000000000000000E+002</temperature>
+<temperature> 1.0000000000000000E+003</temperature>
+<temperature> 5.0000000000000000E+003</temperature>
+<coefficient> 0.0000000000000000E+000</coefficient>
+<coefficient> 0.0000000000000000E+000</coefficient>
+<coefficient> 0.0000000000000000E+000</coefficient>
+<coefficient> 0.0000000000000000E+000</coefficient>
+<coefficient> 0.0000000000000000E+000</coefficient>
+<coefficient> 0.0000000000000000E+000</coefficient>
+<coefficient> 0.0000000000000000E+000</coefficient>
+<coefficient> 0.0000000000000000E+000</coefficient>
+<coefficient> 0.0000000000000000E+000</coefficient>
+<coefficient> 0.0000000000000000E+000</coefficient>
+<coefficient> 0.0000000000000000E+000</coefficient>
+<coefficient> 0.0000000000000000E+000</coefficient>
+<coefficient> 0.0000000000000000E+000</coefficient>
+<coefficient> 0.0000000000000000E+000</coefficient>
+</thermodata>
+</species>
+</bulk>
+<reactions unit="KELVINS">
+<reaction formula="NH3+E(S)=>N(S)+3H">
+<comment type="line" line="1" source="inp">! E(S) has a mass of zero to mimics the original mechanism and fit with the CHEMKIN formalism (mass balanced forced)</comment>
+<comment type="line" line="2" source="inp">! consider E(S) as an boron open site and it is the same as the original mechanism</comment>
+<rate A=" 1.23670000E+011" B=" 5.00000000E-001" E=" 4.53200000E+003">
+</rate>
+</reaction>
+<reaction formula="BCL3+N(S)=>BN(B)+E(S)+3CL">
+<rate A=" 4.38629000E+010" B=" 5.00000000E-001" E=" 1.76920000E+004">
+</rate>
+</reaction>
+<reaction formula="BCL2NH2+E(S)=>2HCL+BN(B)+E(S)">
+<rate A=" 5.20395000E+011" B=" 5.00000000E-001" E=" 8.42700000E+003">
+</rate>
+</reaction>
+<reaction formula="BCL2NH2+N(S)=>2HCL+BN(B)+N(S)">
+<rate A=" 5.20395000E+011" B=" 5.00000000E-001" E=" 8.42700000E+003">
+</rate>
+</reaction>
+</reactions>
+</surface>
+</chemistryset>

@@ -1,0 +1,81 @@
+
+
+     *****************************************************************
+     *                     ANSYS Chemkin 2025 R1                     *
+     *                       CHEM Application                        *
+     *                GAS-PHASE MECHANISM INTERPRETER                *
+     *                 Copyright(c) 2025 ANSYS, Inc.                 *                
+     *Run Date and Time: May 26, 2026   16:58:33     120 min from UTC*
+     *****************************************************************
+
+
+
+Initializing CHEMKIN Gas-phase Interpreter a component of ANSYS Chemkin 2025 R1, Build date: Nov 11, 2024
+This and All Other Chemkin(R) Libraries are Copyright (c) 2025 Ansys, Inc.  Unauthorized use, distribution, or duplication is prohibited.  This product is subject to U.S. laws governing export and re-export.  For full Legal Notice, see documentation.
+
+
+LICENSE INFORMATION: 
+ 
+
+LicNum: unknown                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+
+                WORKING SPACE REQUIREMENTS
+                 PROVIDED        REQUIRED 
+ LOGICAL                8              8
+ INTEGER              460            460
+ REAL                2124           2124
+ CHARACTER             64             64
+
+This problem requires      0.016MB of memory for the REAL array.
+                          --------------------
+                          ELEMENTS     ATOMIC
+                          CONSIDERED   WEIGHT
+                          --------------------
+                           1. B       10.8110    
+                           2. CL      35.4530    
+                           3. N       14.0067    
+                           4. H       1.00797    
+                          --------------------
+ -------------------------------------------------------------------------------
+                            C
+                         P  H
+                         H  A
+                         A  R
+ SPECIES                 S  G  MOLECULAR  TEMPERATURE  ELEMENT COUNT
+ CONSIDERED              E  E  WEIGHT     LOW    HIGH          B         CL        N         H 
+ -------------------------------------------------------------------------------
+     1. H                G  0 1.0080E+00   300   5000          0         0         0         1
+     2. CL               G  0 3.5453E+01   300   5000          0         1         0         0
+     3. HCL              G  0 3.6461E+01   300   5000          0         1         0         1
+     4. BCL3             G  0 1.1717E+02   300   3000          1         3         0         0
+     5. NH3              G  0 1.7031E+01   300   5000          0         0         1         3
+     6. BCL2NH2          G  0 9.7740E+01   300   3000          1         2         1         2
+     7. BCL(NH2)2        G  0 7.8309E+01   300   3000          1         1         2         4
+     8. B(NH2)3          G  0 5.8879E+01   300   3000          1         0         3         6
+ -------------------------------------------------------------------------------
+
+
+
+                                                      (k = A T**b exp(-E/RT))
+      REACTIONS CONSIDERED                              A        b        E
+
+   1. H+CL+M=HCL+M                                   7.20E+21   -2.0        0.0
+   2. BCL3+NH3=HCL+BCL2NH2                           1.14E+12    0.0     6756.0
+   3. NH3+BCL2NH2=HCL+BCL(NH2)2                      3.88E+11    0.0     9301.0
+   4. NH3+BCL(NH2)2=HCL+B(NH2)3                      1.66E+12    0.0    10025.0
+
+ UNITS for the preceding reactions (unless otherwise noted):
+       A units mole-cm-sec-K, E units Kelvins
+
+
+
+
+ NO ERRORS FOUND ON INPUT: 
+ ASCII Vers. 4.5.0 Chemkin linkfile chem.asc written.
+
+ GAS PHASE WORKING SPACE REQUIREMENTS ARE
+    INTEGER:        313
+    REAL:           258
+    CHARACTER:       13
+
+ Total CPUtime: 0.027 (seconds)
