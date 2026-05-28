@@ -1,0 +1,71 @@
+
+
+     *****************************************************************
+     *                     ANSYS Chemkin 2025 R1                     *
+     *                       SURF Application                        *
+     *                 SURFACE MECHANISM INTERPRETER                 *
+     *                 Copyright(c) 2025 ANSYS, Inc.                 *                
+     *Run Date and Time: May 28, 2026   16:52:56     120 min from UTC*
+     *****************************************************************
+
+
+
+                WORKING SPACE REQUIREMENTS
+                 PROVIDED        REQUIRED 
+ LOGICAL              231            231
+ INTEGER              407            407
+ REAL                 753            753
+ CHARACTER             62             62
+
+This problem requires      0.006MB of memory for the REAL array.
+
+Initializing Chemkin Gas-phase Library a component of ANSYS Chemkin 2025 R1, Build date: Nov 11, 2024
+This and All Other Chemkin(R) Libraries are Copyright (c) 2025 Ansys, Inc.  Unauthorized use, distribution, or duplication is prohibited.  This product is subject to U.S. laws governing export and re-export.  For full Legal Notice, see documentation.
+
+
+LICENSE INFORMATION: 
+ 
+
+LicNum: unknown                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+ -------------------------------------------------------------------------------
+ SPECIES                MOLECULAR                        ELEMENT COUNT
+ CONSIDERED             WEIGHT       Density    Nsites           C         H         CR        N 
+ -------------------------------------------------------------------------------
+
+ Gas phase species:
+   1. BBC              2.0823E+02                               12        12         1         0
+   2. MBC              1.3011E+02                                6         6         1         0
+   3. C6H6_BBC         7.8115E+01                                6         6         0         0
+   4. C6H6             7.8115E+01                                6         6         0         0
+   5. H2               2.0159E+00                                0         2         0         0
+   6. C2H2             2.6038E+01                                2         2         0         0
+   7. C7H8             9.2142E+01                                7         8         0         0
+   8. N2               2.8013E+01                                0         0         0         2
+
+ SITE: CR_SITE                    0.114E-08 moles/cm**2
+   9. CR(S)            5.1996E+01                   1            0         0         1         0
+
+ BULK: BULK1           
+  10. CR(B)            5.1996E+01 7.150E+00 g/cm**3              0         0         1         0
+  11. C(B)             1.2011E+01 9.720E-01 g/cm**3              1         0         0         0
+ 
+ -------------------------------------------------------------------------------
+ 
+ -------------------------------------------------------------------------------
+
+ WARNING...NO SURFACE REACTIONS FOUND, 
+ LINKFILE HAS NO REACTION INFORMATION ON IT.
+
+
+
+ NO ERROR WRITING SURFACE LINKFILE:
+ ASCII Version 4.6.0 surface linkfile CrC growth_surf.asc written.
+
+ WORKING SPACE REQUIREMENTS ARE
+    INTEGER:      308
+    REAL:         302
+    CHARACTER:     19
+
+***NOTE:  There are WARNING messages in the printout above***
+
+ Total CPUtime: 0.006 (seconds)

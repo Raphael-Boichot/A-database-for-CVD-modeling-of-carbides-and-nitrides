@@ -1,0 +1,324 @@
+<?xml version="1.0"?>
+<!-- DOCTYPE chemistrydata SYSTEM "chemistrydata.dtd" -->
+<chemistryset date="2026/05/28" time="16:52:56" release="4.5.0">
+<workspace CKSTRT="208" SKSTRT="213" MCSTRT="45"/>
+<gasphase>
+<comment type="line" line="1" source="inp">!----------------------------------------------------------------------</comment>
+<comment type="line" line="2" source="inp">! GAS-PHASE MECHANISM FOR ALN GROWTH (Updated from .out kinetics)</comment>
+<comment type="line" line="3" source="inp">!----------------------------------------------------------------------</comment>
+<elements>
+<element name="C"/>
+<element name="H"/>
+<element name="CR"/>
+<element name="N"/>
+</elements>
+<speciesset count="8">
+<species name="BBC" index="1">
+<thermodata species="BBC" date="" phase="G">
+<atom name="C" number="12"/>
+<atom name="H" number="12"/>
+<atom name="CR" number="1"/>
+<data name="H298"> 5.9285324292228964E+001</data>
+<data name="S298"> 7.0990200809709506E+002</data>
+<temperature> 2.9800000000000000E+002</temperature>
+<temperature> 6.6000000000000000E+002</temperature>
+<temperature> 1.0000000000000000E+003</temperature>
+<coefficient> 7.1330000000000000E+000</coefficient>
+<coefficient> 7.4450000000000002E-002</coefficient>
+<coefficient>-2.7300000000000000E-005</coefficient>
+<coefficient> 1.0950000000000000E-017</coefficient>
+<coefficient>-6.7760000000000000E-021</coefficient>
+<coefficient> 2.3990000000000000E+004</coefficient>
+<coefficient> 2.9419999999999999E+002</coefficient>
+<coefficient>-1.2065000000000000E+001</coefficient>
+<coefficient> 1.4595839999999999E-001</coefficient>
+<coefficient>-1.2480000000000000E-004</coefficient>
+<coefficient> 6.8426999999999995E-008</coefficient>
+<coefficient>-2.9991000000000000E-011</coefficient>
+<coefficient> 2.7931200400000002E+004</coefficient>
+<coefficient> 3.8750999999999999E+002</coefficient>
+</thermodata>
+</species>
+<species name="MBC" index="2">
+<thermodata species="MBC" date="" phase="G">
+<atom name="C" number="6"/>
+<atom name="H" number="6"/>
+<atom name="CR" number="1"/>
+<data name="H298"> 6.1266782821130015E+001</data>
+<data name="S298"> 5.8025662520712569E+002</data>
+<temperature> 2.9800000000000000E+002</temperature>
+<temperature> 7.7000000000000000E+002</temperature>
+<temperature> 1.0000000000000000E+003</temperature>
+<coefficient> 2.9950000000000001E+000</coefficient>
+<coefficient> 4.1380000000000000E-002</coefficient>
+<coefficient>-1.5760000000000002E-005</coefficient>
+<coefficient>-2.1680000000000000E-019</coefficient>
+<coefficient> 0.0000000000000000E+000</coefficient>
+<coefficient> 2.8090000000000000E+004</coefficient>
+<coefficient> 4.9346918199999998E+001</coefficient>
+<coefficient>-8.2911999999999999E+000</coefficient>
+<coefficient> 9.5630000000000007E-002</coefficient>
+<coefficient>-1.1765000000000000E-004</coefficient>
+<coefficient> 9.4277000000000004E-008</coefficient>
+<coefficient>-3.7156000000000002E-011</coefficient>
+<coefficient> 2.9927832600000002E+004</coefficient>
+<coefficient> 3.1523000000000002E+002</coefficient>
+</thermodata>
+</species>
+<species name="C6H6_BBC" index="3">
+<thermodata species="C6H6_BBC" date="g.6.01" phase="G">
+<atom name="C" number="6"/>
+<atom name="H" number="6"/>
+<data name="H298"> 1.9803800674330301E+001</data>
+<data name="S298"> 6.4313639340458423E+001</data>
+<temperature> 2.0000000000000000E+002</temperature>
+<temperature> 1.0000000000000000E+003</temperature>
+<temperature> 6.0000000000000000E+003</temperature>
+<coefficient> 1.1080957600000000E+001</coefficient>
+<coefficient> 2.0717674599999999E-002</coefficient>
+<coefficient>-7.5214599100000004E-006</coefficient>
+<coefficient> 1.2232098400000001E-009</coefficient>
+<coefficient>-7.3609127899999997E-014</coefficient>
+<coefficient> 4.3064103500000001E+003</coefficient>
+<coefficient>-4.0041331000000000E+001</coefficient>
+<coefficient> 5.0481863199999999E-001</coefficient>
+<coefficient> 1.8502064200000001E-002</coefficient>
+<coefficient> 7.3834588099999998E-005</coefficient>
+<coefficient>-1.1813574099999999E-007</coefficient>
+<coefficient> 5.0721042899999998E-011</coefficient>
+<coefficient> 8.5524791299999997E+003</coefficient>
+<coefficient> 2.1641289300000000E+001</coefficient>
+</thermodata>
+</species>
+<species name="C6H6" index="4">
+<thermodata species="C6H6" date="g.6.01" phase="G">
+<atom name="C" number="6"/>
+<atom name="H" number="6"/>
+<data name="H298"> 1.9803800674330301E+001</data>
+<data name="S298"> 6.4313639340458423E+001</data>
+<temperature> 2.0000000000000000E+002</temperature>
+<temperature> 1.0000000000000000E+003</temperature>
+<temperature> 6.0000000000000000E+003</temperature>
+<coefficient> 1.1080957600000000E+001</coefficient>
+<coefficient> 2.0717674599999999E-002</coefficient>
+<coefficient>-7.5214599100000004E-006</coefficient>
+<coefficient> 1.2232098400000001E-009</coefficient>
+<coefficient>-7.3609127899999997E-014</coefficient>
+<coefficient> 4.3064103500000001E+003</coefficient>
+<coefficient>-4.0041331000000000E+001</coefficient>
+<coefficient> 5.0481863199999999E-001</coefficient>
+<coefficient> 1.8502064200000001E-002</coefficient>
+<coefficient> 7.3834588099999998E-005</coefficient>
+<coefficient>-1.1813574099999999E-007</coefficient>
+<coefficient> 5.0721042899999998E-011</coefficient>
+<coefficient> 8.5524791299999997E+003</coefficient>
+<coefficient> 2.1641289300000000E+001</coefficient>
+</thermodata>
+</species>
+<species name="H2" index="5">
+<thermodata species="H2" date="" phase="G">
+<atom name="H" number="2"/>
+<data name="H298"> 1.7282903314144535E-001</data>
+<data name="S298"> 3.1580078172185281E+001</data>
+<temperature> 3.0000000000000000E+002</temperature>
+<temperature> 1.0000000000000000E+003</temperature>
+<temperature> 5.0000000000000000E+003</temperature>
+<coefficient> 3.2981240000000001E+000</coefficient>
+<coefficient> 8.2494420000000005E-004</coefficient>
+<coefficient>-8.1430150000000002E-007</coefficient>
+<coefficient>-9.4754339999999994E-011</coefficient>
+<coefficient> 4.1348719999999999E-013</coefficient>
+<coefficient>-1.0125210000000000E+003</coefficient>
+<coefficient>-3.2940939999999999E+000</coefficient>
+<coefficient> 2.9914230000000002E+000</coefficient>
+<coefficient> 7.0006440000000005E-004</coefficient>
+<coefficient>-5.6338289999999998E-008</coefficient>
+<coefficient>-9.2315779999999998E-012</coefficient>
+<coefficient> 1.5827520000000000E-015</coefficient>
+<coefficient>-8.3503399999999999E+002</coefficient>
+<coefficient>-1.3551100000000000E+000</coefficient>
+</thermodata>
+</species>
+<species name="C2H2" index="6">
+<thermodata species="C2H2" date="L.1.91" phase="G">
+<atom name="C" number="2"/>
+<atom name="H" number="2"/>
+<data name="H298"> 5.4533615092013598E+001</data>
+<data name="S298"> 4.8009729534419883E+001</data>
+<temperature> 2.0000000000000000E+002</temperature>
+<temperature> 1.0000000000000000E+003</temperature>
+<temperature> 3.5000000000000000E+003</temperature>
+<coefficient> 4.1475696400000004E+000</coefficient>
+<coefficient> 5.9616666400000001E-003</coefficient>
+<coefficient>-2.3729485200000000E-006</coefficient>
+<coefficient> 4.6741217100000004E-010</coefficient>
+<coefficient>-3.6123521300000002E-014</coefficient>
+<coefficient> 2.5935999199999998E+004</coefficient>
+<coefficient>-1.2302812100000000E+000</coefficient>
+<coefficient> 8.0868109399999999E-001</coefficient>
+<coefficient> 2.3361562900000001E-002</coefficient>
+<coefficient>-3.5517181499999999E-005</coefficient>
+<coefficient> 2.8015243700000000E-008</coefficient>
+<coefficient>-8.5007297399999996E-012</coefficient>
+<coefficient> 2.6428980700000000E+004</coefficient>
+<coefficient> 1.3939705099999999E+001</coefficient>
+</thermodata>
+</species>
+<species name="C7H8" index="7">
+<thermodata species="C7H8" date="g.1.93" phase="G">
+<atom name="C" number="7"/>
+<atom name="H" number="8"/>
+<data name="H298"> 1.1985970453768831E+001</data>
+<data name="S298"> 7.6506038483633318E+001</data>
+<temperature> 2.0000000000000000E+002</temperature>
+<temperature> 1.0000000000000000E+003</temperature>
+<temperature> 6.0000000000000000E+003</temperature>
+<coefficient> 1.2939361000000000E+001</coefficient>
+<coefficient> 2.6692227700000001E-002</coefficient>
+<coefficient>-9.6842204100000005E-006</coefficient>
+<coefficient> 1.5739238599999999E-009</coefficient>
+<coefficient>-9.4667169899999997E-014</coefficient>
+<coefficient>-6.7697114899999997E+002</coefficient>
+<coefficient>-4.6724975899999997E+001</coefficient>
+<coefficient> 1.6120010199999999E+000</coefficient>
+<coefficient> 2.1117985499999999E-002</coefficient>
+<coefficient> 8.5323998599999996E-005</coefficient>
+<coefficient>-1.3256850099999999E-007</coefficient>
+<coefficient> 5.5941140600000002E-011</coefficient>
+<coefficient> 4.0965482000000002E+003</coefficient>
+<coefficient> 2.0296977099999999E+001</coefficient>
+</thermodata>
+</species>
+<species name="N2" index="8">
+<thermodata species="N2" date="121286" phase="G">
+<atom name="N" number="2"/>
+<data name="H298">-7.0038793298660932E-004</data>
+<data name="S298"> 4.5764323111306894E+001</data>
+<temperature> 3.0000000000000000E+002</temperature>
+<temperature> 1.0000000000000000E+003</temperature>
+<temperature> 5.0000000000000000E+003</temperature>
+<coefficient> 2.9266399999999999E+000</coefficient>
+<coefficient> 1.4879768000000001E-003</coefficient>
+<coefficient>-5.6847600000000001E-007</coefficient>
+<coefficient> 1.0097038000000000E-010</coefficient>
+<coefficient>-6.7533509999999998E-015</coefficient>
+<coefficient>-9.2279769999999996E+002</coefficient>
+<coefficient> 5.9805279999999996E+000</coefficient>
+<coefficient> 3.2986770000000001E+000</coefficient>
+<coefficient> 1.4082404000000000E-003</coefficient>
+<coefficient>-3.9632219999999998E-006</coefficient>
+<coefficient> 5.6415150000000002E-009</coefficient>
+<coefficient>-2.4448539999999999E-012</coefficient>
+<coefficient>-1.0208999000000000E+003</coefficient>
+<coefficient> 3.9503720000000002E+000</coefficient>
+</thermodata>
+</species>
+</speciesset>
+<reactions unit="KELVINS">
+<reaction formula="BBC=>MBC+C6H6_BBC">
+<rate A=" 8.00000000E+004" B=" 5.00000000E-001" E=" 7.00000000E+003">
+</rate>
+</reaction>
+</reactions>
+</gasphase>
+<transport>
+<transportdata species="BBC" geometry="2" ljwell=" 4.650000E+02" ljdiam=" 5.276000E+00" dipole=" 0.000000E+00" polar=" 0.000000E+00" rotat=" 1.000000E+00">
+<comment type="line" line="1" source="dat">! Species       Geom   eps/k      sigma      dipole     polar      Z_rot[dat]</comment>
+</transportdata>
+<transportdata species="MBC" geometry="2" ljwell=" 4.650000E+02" ljdiam=" 5.276000E+00" dipole=" 0.000000E+00" polar=" 0.000000E+00" rotat=" 1.000000E+00">
+</transportdata>
+<transportdata species="C6H6_BBC" geometry="2" ljwell=" 4.653120E+02" ljdiam=" 5.276000E+00" dipole=" 0.000000E+00" polar=" 0.000000E+00" rotat=" 1.000000E+00">
+</transportdata>
+<transportdata species="C6H6" geometry="2" ljwell=" 4.653120E+02" ljdiam=" 5.276000E+00" dipole=" 0.000000E+00" polar=" 0.000000E+00" rotat=" 1.000000E+00">
+</transportdata>
+<transportdata species="H2" geometry="1" ljwell=" 5.970000E+01" ljdiam=" 2.827000E+00" dipole=" 0.000000E+00" polar=" 7.870000E-01" rotat=" 1.000000E+00">
+</transportdata>
+<transportdata species="C2H2" geometry="1" ljwell=" 2.318000E+02" ljdiam=" 4.033000E+00" dipole=" 0.000000E+00" polar=" 3.487000E+00" rotat=" 1.000000E+00">
+</transportdata>
+<transportdata species="C7H8" geometry="2" ljwell=" 5.120870E+02" ljdiam=" 5.574000E+00" dipole=" 0.000000E+00" polar=" 0.000000E+00" rotat=" 1.000000E+00">
+</transportdata>
+<transportdata species="N2" geometry="1" ljwell=" 7.140000E+01" ljdiam=" 3.798000E+00" dipole=" 0.000000E+00" polar=" 1.710000E+00" rotat=" 1.000000E+00">
+</transportdata>
+</transport>
+<surface material="MATERIAL1">
+<comment type="line" line="1" source="inp">!----------------------------------------------------------------------</comment>
+<comment type="line" line="2" source="inp">! SURFACE MECHANISM</comment>
+<comment type="line" line="3" source="inp">!----------------------------------------------------------------------</comment>
+<site name="CR_SITE" density=" 1.14000000E-009">
+<species name="CR(S)" occupancy=" 1">
+<thermodata species="CR(S)" date="" phase="S">
+<atom name="CR" number="1"/>
+<data name="H298"> 9.4988948711066683E+001</data>
+<data name="S298"> 4.1654879699530774E+001</data>
+<temperature> 2.0000000000000000E+002</temperature>
+<temperature> 1.0000000000000000E+003</temperature>
+<temperature> 6.0000000000000000E+003</temperature>
+<coefficient> 2.9266656000000002E+000</coefficient>
+<coefficient>-1.1568688000000000E-003</coefficient>
+<coefficient> 9.1571573900000000E-007</coefficient>
+<coefficient>-1.9466419699999999E-010</coefficient>
+<coefficient> 1.5011871000000001E-014</coefficient>
+<coefficient> 4.6952938399999999E+004</coefficient>
+<coefficient> 4.5344162099999998E+000</coefficient>
+<coefficient> 2.5026313000000000E+000</coefficient>
+<coefficient>-2.8328370100000001E-005</coefficient>
+<coefficient> 1.0688646100000000E-007</coefficient>
+<coefficient>-1.6619323600000000E-010</coefficient>
+<coefficient> 9.0864056299999996E-014</coefficient>
+<coefficient> 4.7060023999999998E+004</coefficient>
+<coefficient> 6.7109622099999999E+000</coefficient>
+</thermodata>
+</species>
+</site>
+<bulk name="BULK1">
+<species name="CR(B)" density=" 7.15000000E+000">
+<thermodata species="CR(B)" date="" phase="S">
+<atom name="CR" number="1"/>
+<data name="H298">-2.2073850288716360E-001</data>
+<data name="S298"> 5.0761739628450266E+000</data>
+<temperature> 3.1150000000000000E+002</temperature>
+<temperature> 1.0000000000000000E+003</temperature>
+<temperature> 2.1300000000000000E+003</temperature>
+<coefficient> 1.8286349600000000E+000</coefficient>
+<coefficient> 4.1956208799999997E-003</coefficient>
+<coefficient>-2.8273465000000001E-006</coefficient>
+<coefficient>-9.1599497400000005E-010</coefficient>
+<coefficient> 1.5520320100000000E-012</coefficient>
+<coefficient>-7.0550268800000003E+002</coefficient>
+<coefficient>-8.6980620999999996E+000</coefficient>
+<coefficient> 4.5978268399999997E+000</coefficient>
+<coefficient>-4.8179125800000000E-003</coefficient>
+<coefficient> 5.8412987500000002E-006</coefficient>
+<coefficient>-2.0703689800000002E-009</coefficient>
+<coefficient> 2.8210234600000000E-013</coefficient>
+<coefficient>-1.3148968199999999E+003</coefficient>
+<coefficient>-2.2445477300000000E+001</coefficient>
+</thermodata>
+</species>
+<species name="C(B)" density=" 9.72000000E-001">
+<thermodata species="C(B)" date="" phase="S">
+<atom name="C" number="1"/>
+<data name="H298">-2.4190384823882237E-005</data>
+<data name="S298"> 1.3697717698196252E+000</data>
+<temperature> 1.0000000000000000E+002</temperature>
+<temperature> 1.0000000000000000E+003</temperature>
+<temperature> 5.0000000000000000E+003</temperature>
+<coefficient> 1.4901663999999999E+000</coefficient>
+<coefficient> 1.6621256000000000E-003</coefficient>
+<coefficient>-6.6872040000000004E-007</coefficient>
+<coefficient> 1.2908796000000000E-010</coefficient>
+<coefficient>-9.2053340000000001E-015</coefficient>
+<coefficient>-7.0740179999999998E+002</coefficient>
+<coefficient>-8.7177849999999992E+000</coefficient>
+<coefficient>-6.7056610000000005E-001</coefficient>
+<coefficient> 7.1814990000000000E-003</coefficient>
+<coefficient>-5.6329209999999998E-006</coefficient>
+<coefficient> 2.1422980000000001E-009</coefficient>
+<coefficient>-4.1685619999999998E-013</coefficient>
+<coefficient>-7.3394980000000004E+001</coefficient>
+<coefficient> 2.6015950000000001E+000</coefficient>
+</thermodata>
+</species>
+</bulk>
+</surface>
+</chemistryset>

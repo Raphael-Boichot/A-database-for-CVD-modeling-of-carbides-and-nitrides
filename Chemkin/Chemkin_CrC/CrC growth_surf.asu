@@ -1,0 +1,12 @@
+1
+material=MATERIAL1       
+1
+surfacephase=CR_SITE         
+1
+bulkphase=BULK1           
+1
+surfacespecies=CR(S)            mw=51.99600
+2
+bulkspecies=CR(B)            mw=51.99600
+bulkspecies=C(B)             mw=12.01115
+0

@@ -1,0 +1,11 @@
+8
+species=BBC              mw=208.2254
+species=MBC              mw=130.1107
+species=C6H6_BBC         mw=78.11472
+species=C6H6             mw=78.11472
+species=H2               mw=2.015940
+species=C2H2             mw=26.03824
+species=C7H8             mw=92.14181
+species=N2               mw=28.01340
+1
+reaction=BBC=>MBC+C6H6_BBC
