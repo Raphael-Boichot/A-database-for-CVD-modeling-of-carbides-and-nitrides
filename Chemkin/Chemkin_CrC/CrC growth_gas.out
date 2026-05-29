@@ -5,7 +5,7 @@
      *                       CHEM Application                        *
      *                GAS-PHASE MECHANISM INTERPRETER                *
      *                 Copyright(c) 2025 ANSYS, Inc.                 *                
-     *Run Date and Time: May 29, 2026   11:23:16     120 min from UTC*
+     *Run Date and Time: May 29, 2026   16:14:42     120 min from UTC*
      *****************************************************************
 
 
@@ -36,9 +36,6 @@ This problem requires      0.015MB of memory for the REAL array.
                            3. CR      51.9960    
                            4. N       14.0067    
                           --------------------
-      WARNING...extra thermo parameters found 
-                species: C7H8
-                thermo data line: -1.32568501E-07 5.59411406E-11 4.09654820E+03 2.02969771E+01 6.03402967E+03    4
  -------------------------------------------------------------------------------
                             C
                          P  H
@@ -83,6 +80,4 @@ This problem requires      0.015MB of memory for the REAL array.
     REAL:           218
     CHARACTER:       13
 
-***NOTE:  There are WARNING messages in the printout above***
-
- Total CPUtime: 0.017 (seconds)
+ Total CPUtime: 0.022 (seconds)

@@ -1,1 +1,3 @@
 GasRxn#1 BBC=>MBC+C6H6_BBC (#G1)
+SurfRxn#1_Mat#1 MBC+CR(S)=>CR(B)+CR(S)+C6H6 (#S1_Mat1)
+SurfRxn#2_Mat#1 1.00C6H6+1.00CR(S)=>2.30C(B)+1.15H2+1.85C2H2+1.00CR(S) (#S2_Mat1)

@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!-- DOCTYPE chemistrydata SYSTEM "chemistrydata.dtd" -->
-<chemistryset date="2026/05/29" time="11:23:16" release="4.5.0">
+<chemistryset date="2026/05/29" time="16:14:42" release="4.5.0">
 <workspace CKSTRT="208" SKSTRT="213" MCSTRT="45"/>
 <gasphase>
 <comment type="line" line="1" source="inp">!----------------------------------------------------------------------</comment>
@@ -320,5 +320,17 @@
 </thermodata>
 </species>
 </bulk>
+<reactions unit="KELVINS">
+<reaction formula="MBC+CR(S)=>CR(B)+CR(S)+C6H6">
+<rate A=" 2.50000000E+018" B=" 5.00000000E-001" E=" 8.00000000E+003">
+</rate>
+</reaction>
+<reaction formula="C6H6+CR(S)=>2.3C(B)+1.15H2+1.85C2H2+CR(S)">
+<rate A=" 1.00000000E+000" B=" 0.00000000E+000" E=" 0.00000000E+000">
+</rate>
+<auxiliary keyword="STICK">
+</auxiliary>
+</reaction>
+</reactions>
 </surface>
 </chemistryset>

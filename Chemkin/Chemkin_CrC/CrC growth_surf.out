@@ -5,17 +5,17 @@
      *                       SURF Application                        *
      *                 SURFACE MECHANISM INTERPRETER                 *
      *                 Copyright(c) 2025 ANSYS, Inc.                 *                
-     *Run Date and Time: May 29, 2026   11:23:16     120 min from UTC*
+     *Run Date and Time: May 29, 2026   16:14:42     120 min from UTC*
      *****************************************************************
 
 
 
                 WORKING SPACE REQUIREMENTS
                  PROVIDED        REQUIRED 
- LOGICAL              231            231
- INTEGER              407            407
- REAL                 753            753
- CHARACTER             62             62
+ LOGICAL              232            232
+ INTEGER              482            482
+ REAL                 805            805
+ CHARACTER             72             72
 
 This problem requires      0.006MB of memory for the REAL array.
 
@@ -50,11 +50,20 @@ LicNum: unknown
   11. C(B)             1.2011E+01 9.720E-01 g/cm**3              1         0         0         0
  
  -------------------------------------------------------------------------------
+                                                      (k = A T**b exp(-E/RT))
+      SURFACE REACTIONS CONSIDERED                      A        b        E
+
+   1. MBC+CR(S)=>CR(B)+CR(S)+C6H6                    2.50E+18    0.5     8000.0
+   2. C6H6+CR(S)                                     1.00E+00    0.0        0.0
+      =>2.3C(B)+1.15H2+1.85C2H2+CR(S)
+      Coefficients are sticking parameters...
+
+ UNITS for the preceding reactions (unless otherwise noted):
+       A units mole-cm-sec-K, E units Kelvins
+       Motz-Wise correction to sticking coefficients is turned OFF.
+ 
  
  -------------------------------------------------------------------------------
-
- WARNING...NO SURFACE REACTIONS FOUND, 
- LINKFILE HAS NO REACTION INFORMATION ON IT.
 
 
 
@@ -62,10 +71,13 @@ LicNum: unknown
  ASCII Version 4.6.0 surface linkfile CrC growth_surf.asc written.
 
  WORKING SPACE REQUIREMENTS ARE
-    INTEGER:      308
-    REAL:         302
+    INTEGER:      366
+    REAL:         350
     CHARACTER:     19
 
-***NOTE:  There are WARNING messages in the printout above***
 
- Total CPUtime: 0.006 (seconds)
+      NOTE (for information purposes only),
+      the following gas-phase species do not participate in any reaction:
+      C7H8             N2              
+
+ Total CPUtime: 0.007 (seconds)
