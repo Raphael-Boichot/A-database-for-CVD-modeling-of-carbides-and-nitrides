@@ -2,7 +2,7 @@
 ! SURFACE MECHANISM FOR TIN GROWTH (Converted from CFD-ACE+ kinetics)
 !----------------------------------------------------------------------
 
-SITE/TiN_surface/ SDEN/1.80E-08/
+SITE/TiN_surface/ SDEN/1.80E-09/
   E(S)  N(S)
 END
 

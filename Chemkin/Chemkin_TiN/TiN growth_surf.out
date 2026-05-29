@@ -5,7 +5,7 @@
      *                       SURF Application                        *
      *                 SURFACE MECHANISM INTERPRETER                 *
      *                 Copyright(c) 2025 ANSYS, Inc.                 *                
-     *Run Date and Time: May 26, 2026   16:55:21     120 min from UTC*
+     *Run Date and Time: May 29, 2026   16:16:52     120 min from UTC*
      *****************************************************************
 
 
@@ -41,7 +41,7 @@ LicNum: unknown
    6. CL2              7.0906E+01                                0         2         0         0
    7. H2               2.0159E+00                                0         0         0         2
 
- SITE: TiN_surface                0.180E-07 moles/cm**2
+ SITE: TiN_surface                0.180E-08 moles/cm**2
    8. E(S)             0.0000E+00                   1            0         0         0         0
    9. N(S)             1.4007E+01                   1            0         0         1         0
 
@@ -71,4 +71,4 @@ LicNum: unknown
     REAL:         326
     CHARACTER:     18
 
- Total CPUtime: 0.006 (seconds)
+ Total CPUtime: 0.007 (seconds)

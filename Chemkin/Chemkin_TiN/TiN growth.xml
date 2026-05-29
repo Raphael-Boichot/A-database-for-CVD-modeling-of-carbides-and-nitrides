@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!-- DOCTYPE chemistrydata SYSTEM "chemistrydata.dtd" -->
-<chemistryset date="2026/05/26" time="16:55:21" release="4.5.0">
+<chemistryset date="2026/05/29" time="16:16:52" release="4.5.0">
 <workspace CKSTRT="208" SKSTRT="213" MCSTRT="45"/>
 <gasphase>
 <comment type="line" line="1" source="inp">!----------------------------------------------------------------------</comment>
@@ -233,7 +233,7 @@
 <comment type="line" line="1" source="inp">!----------------------------------------------------------------------</comment>
 <comment type="line" line="2" source="inp">! SURFACE MECHANISM FOR TIN GROWTH (Converted from CFD-ACE+ kinetics)</comment>
 <comment type="line" line="3" source="inp">!----------------------------------------------------------------------</comment>
-<site name="TiN_surface" density=" 1.80000000E-008">
+<site name="TiN_surface" density=" 1.80000000E-009">
 <species name="E(S)" occupancy=" 1">
 <thermodata species="E(S)" date="" phase="G">
 <data name="H298"> 0.0000000000000000E+000</data>
