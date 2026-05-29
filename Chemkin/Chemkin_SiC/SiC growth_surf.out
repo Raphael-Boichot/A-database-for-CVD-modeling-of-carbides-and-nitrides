@@ -5,7 +5,7 @@
      *                       SURF Application                        *
      *                 SURFACE MECHANISM INTERPRETER                 *
      *                 Copyright(c) 2025 ANSYS, Inc.                 *                
-     *Run Date and Time: May 29, 2026   16:18:07     120 min from UTC*
+     *Run Date and Time: May 29, 2026   17:03:50     120 min from UTC*
      *****************************************************************
 
 
@@ -121,4 +121,4 @@ LicNum: unknown
       the following gas-phase species do not participate in any reaction:
       CL2              CL               HCL              SICL4            SIHCL3          
 
- Total CPUtime: 0.014 (seconds)
+ Total CPUtime: 0.031 (seconds)
