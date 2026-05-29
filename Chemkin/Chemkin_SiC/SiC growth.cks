@@ -1,0 +1,21 @@
+#
+#Fri May 29 15:51:26 CEST 2026
+C\:\\Users\\boichot\\Downloads\\A-database-for-CVD-modeling-of-carbides-and-nitrides-main\\Chemkin\\Chemkin_SiC__Run_Result=PREPROCESS_OK_42
+FIT_TRANSPORT_PROPERTIES=1
+C\:\\Users\\boichot\\Downloads\\A-database-for-CVD-modeling-of-carbides-and-nitrides-main\\Chemkin\\Chemkin_SiC__OUT_SURF_ASC=C\:\\Users\\boichot\\Downloads\\A-database-for-CVD-modeling-of-carbides-and-nitrides-main\\Chemkin\\Chemkin_SiC\\SiC growth_surf.asc
+IN_SURF_INPUT=C\:\\Users\\boichot\\Downloads\\A-database-for-CVD-modeling-of-carbides-and-nitrides-main\\Chemkin\\Chemkin_SiC\\SiC_growth_surface.inp
+C\:\\Users\\boichot\\Downloads\\A-database-for-CVD-modeling-of-carbides-and-nitrides-main\\Chemkin\\Chemkin_SiC__OUT_XML_PARAMETERS=C\:\\Users\\boichot\\Downloads\\A-database-for-CVD-modeling-of-carbides-and-nitrides-main\\Chemkin\\Chemkin_SiC\\SiC growth.xml
+C\:\\Users\\boichot\\Downloads\\A-database-for-CVD-modeling-of-carbides-and-nitrides-main\\Chemkin\\Chemkin_SiC__OUT_CHEM_ASC=C\:\\Users\\boichot\\Downloads\\A-database-for-CVD-modeling-of-carbides-and-nitrides-main\\Chemkin\\Chemkin_SiC\\SiC growth_gas.asc
+IN_THERM_DB=C\:\\Users\\boichot\\Downloads\\A-database-for-CVD-modeling-of-carbides-and-nitrides-main\\Chemkin\\Chemkin_SiC\\SiC_growth_thermo.dat
+Chemistry\ Set\ Name=SiC growth
+C\:\\Users\\boichot\\Downloads\\A-database-for-CVD-modeling-of-carbides-and-nitrides-main\\Chemkin\\Chemkin_SiC__OUT_CHEM_SPECIES=C\:\\Users\\boichot\\Downloads\\A-database-for-CVD-modeling-of-carbides-and-nitrides-main\\Chemkin\\Chemkin_SiC\\SiC growth_gas.asu
+C\:\\Users\\boichot\\Downloads\\A-database-for-CVD-modeling-of-carbides-and-nitrides-main\\Chemkin\\Chemkin_SiC__OUT_SURF_SPECIES=C\:\\Users\\boichot\\Downloads\\A-database-for-CVD-modeling-of-carbides-and-nitrides-main\\Chemkin\\Chemkin_SiC\\SiC growth_surf.asu
+C\:\\Users\\boichot\\Downloads\\A-database-for-CVD-modeling-of-carbides-and-nitrides-main\\Chemkin\\Chemkin_SiC__OUT_SURF_OUTPUT=C\:\\Users\\boichot\\Downloads\\A-database-for-CVD-modeling-of-carbides-and-nitrides-main\\Chemkin\\Chemkin_SiC\\SiC growth_surf.out
+IN_LIQUID_DB=
+C\:\\Users\\boichot\\Downloads\\A-database-for-CVD-modeling-of-carbides-and-nitrides-main\\Chemkin\\Chemkin_SiC__OUT_TRAN_OUTPUT=C\:\\Users\\boichot\\Downloads\\A-database-for-CVD-modeling-of-carbides-and-nitrides-main\\Chemkin\\Chemkin_SiC\\SiC growth_gtran.out
+SYSTEM_FLAG=FALSE
+IN_TRANS_DB=C\:\\Users\\boichot\\Downloads\\A-database-for-CVD-modeling-of-carbides-and-nitrides-main\\Chemkin\\Chemkin_SiC\\SiC_growth_transport.dat
+IN_CHEM_INPUT=C\:\\Users\\boichot\\Downloads\\A-database-for-CVD-modeling-of-carbides-and-nitrides-main\\Chemkin\\Chemkin_SiC\\SiC_growth_gas.inp
+Chemistry\ Set\ Description=
+C\:\\Users\\boichot\\Downloads\\A-database-for-CVD-modeling-of-carbides-and-nitrides-main\\Chemkin\\Chemkin_SiC__OUT_CHEM_OUTPUT=C\:\\Users\\boichot\\Downloads\\A-database-for-CVD-modeling-of-carbides-and-nitrides-main\\Chemkin\\Chemkin_SiC\\SiC growth_gas.out
+C\:\\Users\\boichot\\Downloads\\A-database-for-CVD-modeling-of-carbides-and-nitrides-main\\Chemkin\\Chemkin_SiC__OUT_TRAN_ASC=C\:\\Users\\boichot\\Downloads\\A-database-for-CVD-modeling-of-carbides-and-nitrides-main\\Chemkin\\Chemkin_SiC\\SiC growth_gtran.asc

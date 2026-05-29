@@ -1,0 +1,36 @@
+1
+material=MATERIAL1       
+1
+surfacephase=SIC_SURFACE     
+1
+bulkphase=BULK1           
+8
+surfacespecies=SI_S(S)          mw=28.08600
+surfacespecies=C_S(S)           mw=12.01115
+surfacespecies=SIH_S(S)         mw=29.09397
+surfacespecies=CH_S(S)          mw=13.01912
+surfacespecies=SIH3_S(S)        mw=31.10991
+surfacespecies=CH3_S(S)         mw=15.03506
+surfacespecies=SIH2_S(S)        mw=30.10194
+surfacespecies=N_S(S)           mw=14.00670
+3
+bulkspecies=SI(B)            mw=28.08600
+bulkspecies=C(B)             mw=12.01115
+bulkspecies=N_V(B)           mw=14.00670
+16
+surfacereaction=C(B)+SI_S(S)+H2=>SIH2+C_S(S)
+surfacereaction=2SI(B)+2C_S(S)+H2=>C2H2+2SI_S(S)
+surfacereaction=SIH4+C_S(S)=>SIH2_S(S)+H2+C(B)
+surfacereaction=SIH2_S(S)=>H2+SI_S(S)
+surfacereaction=SIH2+C_S(S)=>SIH2_S(S)+C(B)
+surfacereaction=SI_G+C_S(S)=>SI_S(S)+C(B)
+surfacereaction=C2H2+2SI_S(S)=>2C_S(S)+H2+2SI(B)
+surfacereaction=C2H4+2SI_S(S)=>2C_S(S)+2H2+2SI(B)
+surfacereaction=CH4+SI_S(S)=>C_S(S)+2H2+SI(B)
+surfacereaction=HSICH3+C_S(S)=>C(B)+SI_S(S)+H+CH3
+surfacereaction=1.00CH3+1.00SI_S(S)=>1.00SI(B)+1.00C_S(S)+1.50H2
+surfacereaction=SI2+2C_S(S)=>2C(B)+2SI_S(S)
+surfacereaction=SI2C+SI_S(S)=>SI2+SI(B)+C_S(S)
+surfacereaction=SICH2+C_S(S)=>C(B)+SI_S(S)+CH2
+surfacereaction=CH2+SI_S(S)=>C(B)+SI_S(S)+H2
+surfacereaction=N2+2SI_S(S)=>2N_V(B)+2SI_S(S)
