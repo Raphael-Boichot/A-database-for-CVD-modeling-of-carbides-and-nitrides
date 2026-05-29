@@ -5,7 +5,7 @@
      *                       CHEM Application                        *
      *                GAS-PHASE MECHANISM INTERPRETER                *
      *                 Copyright(c) 2025 ANSYS, Inc.                 *                
-     *Run Date and Time: May 26, 2026   16:41:20     120 min from UTC*
+     *Run Date and Time: May 29, 2026   16:16:26     120 min from UTC*
      *****************************************************************
 
 
@@ -65,7 +65,7 @@ This problem requires      0.017MB of memory for the REAL array.
    4. HCL+H=CL+H2                                    1.69E+13    0.0     2100.0
    5. H+CL2=HCL+CL                                   8.60E+13    0.0      590.0
    6. 2H+H2=2H2                                      9.70E+16   -0.6        0.0
-   7. H2+M=2H+M                                      2.20E+14    0.0    48000.0
+   7. H2+M=2H+M                                      1.00E+14    0.0    48000.0
 
  UNITS for the preceding reactions (unless otherwise noted):
        A units mole-cm-sec-K, E units Kelvins
@@ -81,4 +81,4 @@ This problem requires      0.017MB of memory for the REAL array.
     REAL:           321
     CHARACTER:       13
 
- Total CPUtime: 0.041 (seconds)
+ Total CPUtime: 0.014 (seconds)

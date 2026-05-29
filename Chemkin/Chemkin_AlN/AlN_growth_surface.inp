@@ -2,7 +2,7 @@
 ! SURFACE MECHANISM
 !----------------------------------------------------------------------
 
-SITE/AlN_surface/ SDEN/1.32E-08/
+SITE/AlN_surface/ SDEN/1.32E-09/
   E(S)  N(S)
 END
 

@@ -1,5 +1,5 @@
 #Convert from CFD-ACE to Chemkin, 2026
-#Tue May 26 16:41:20 CEST 2026
+#Fri May 29 16:16:27 CEST 2026
 FIT_TRANSPORT_PROPERTIES=1
 C\:\\Users\\boichot\\Downloads\\A-database-for-CVD-modeling-of-carbides-and-nitrides-main\\Chemkin\\Chemkin_AlN__OUT_SURF_ASC=C\:\\Users\\boichot\\Downloads\\A-database-for-CVD-modeling-of-carbides-and-nitrides-main\\Chemkin\\Chemkin_AlN\\AlN growth_surf.asc
 IN_SURF_INPUT=C\:\\Users\\boichot\\Downloads\\A-database-for-CVD-modeling-of-carbides-and-nitrides-main\\Chemkin\\Chemkin_AlN\\AlN_growth_surface.inp
