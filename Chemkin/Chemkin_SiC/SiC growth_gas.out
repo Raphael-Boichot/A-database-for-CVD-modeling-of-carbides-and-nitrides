@@ -5,7 +5,7 @@
      *                       CHEM Application                        *
      *                GAS-PHASE MECHANISM INTERPRETER                *
      *                 Copyright(c) 2025 ANSYS, Inc.                 *                
-     *Run Date and Time: May 29, 2026   17:03:50     120 min from UTC*
+     *Run Date and Time: Jun 01, 2026   10:12:26     120 min from UTC*
      *****************************************************************
 
 
@@ -22,11 +22,11 @@ LicNum: unknown
                 WORKING SPACE REQUIREMENTS
                  PROVIDED        REQUIRED 
  LOGICAL               25             25
- INTEGER             1310           1310
- REAL                9382           9382
- CHARACTER            170            170
+ INTEGER             1646           1646
+ REAL                9700           9700
+ CHARACTER            230            230
 
-This problem requires      0.072MB of memory for the REAL array.
+This problem requires      0.074MB of memory for the REAL array.
                           --------------------
                           ELEMENTS     ATOMIC
                           CONSIDERED   WEIGHT
@@ -77,20 +77,26 @@ This problem requires      0.072MB of memory for the REAL array.
                                                       (k = A T**b exp(-E/RT))
       REACTIONS CONSIDERED                              A        b        E
 
-   1. SIH4<=>SIH2+H2                                 2.00E+13    0.0    58400.0
-   2. SI2H6<=>SIH4+SIH2                              6.30E+14    0.0    49500.0
-   3. C3H8<=>CH4+C2H4                                2.80E+16    0.0    82100.0
-   4. CH4+H<=>CH3+H2                                 2.20E+04    3.0     8750.0
-   5. C2H6<=>2CH3                                    5.50E+16    0.0    88300.0
-   6. C2H5+H2<=>C2H6+H                               5.00E+05    2.5    11500.0
-   7. 2C2H5<=>C2H4+C2H6                              1.20E+12    0.0        0.0
-   8. C2H4<=>C2H2+H2                                 1.30E+12    0.0    77000.0
-   9. H3SICH3<=>HSICH3+H2                            1.50E+14    0.0    65000.0
-  10. SIH4+CH3<=>H3SICH3+H                           4.00E+11    0.0     6500.0
-  11. CH4<=>CH2+H2                                   3.00E+15    0.0   102000.0
+   1. SIH4<=>SIH2+H2                                 6.67E+29   -4.8    31946.0
+   2. SI2H6<=>SIH2+SIH4                              3.24E+29   -4.2    29202.0
+   3. SIH2<=>SI_G+H2                                 1.06E+14   -0.9    22657.0
+   4. 2H+H2<=>2H2                                    9.20E+16   -0.6        0.0
+   5. C3H8<=>CH3+C2H5                                1.70E+16    0.0    42715.0
+   6. CH4+H<=>CH3+H2                                 2.20E+04    3.0     4406.0
+   7. C2H5+H<=>2CH3                                  1.00E+14    0.0    13350.0
+   8. 2CH3<=>C2H6                                    9.03E+16   -1.2      330.0
+   9. C2H4+H<=>C2H5                                  2.21E+13    0.0     1040.0
+  10. C2H4<=>C2H2+H2                                 1.50E+15    0.0    41467.0
+  11. H3SICH3<=>SIH2+CH4                             2.00E+14    0.0    36413.0
+  12. H3SICH3<=>HSICH3+H2                            1.00E+14    0.0    32033.0
+  13. SI2<=>2SI_G                                    1.00E+15    0.0    37460.0
+  14. SI2+CH4<=>SI2C+2H2                             3.01E+15    0.0    10000.0
+  15. SIH2+SI_G<=>SI2+H2                             1.50E+14    0.0        0.0
+  16. CH3+SI_G<=>SICH2+H                             1.39E+12    0.5        0.0
+  17. SICH2+SIH2<=>SI2C+2H2                          1.00E+15    0.0        0.0
 
  UNITS for the preceding reactions (unless otherwise noted):
-       A units mole-cm-sec-K, E units cal/mole
+       A units mole-cm-sec-K, E units Kelvins
 
 
 
@@ -101,12 +107,12 @@ This problem requires      0.072MB of memory for the REAL array.
 
       NOTE (for information purposes only),
       the following species do not participate in any reaction:
-      SI_G             SICH2            CL2              CL               HCL             
-      SICL4            SIHCL3           SI2              SI2C             N2              
+      CH2              CL2              CL               HCL              SICL4           
+      SIHCL3           N2              
 
  GAS PHASE WORKING SPACE REQUIREMENTS ARE
-    INTEGER:        873
-    REAL:           804
+    INTEGER:       1194
+    REAL:           894
     CHARACTER:       31
 
- Total CPUtime: 0.036 (seconds)
+ Total CPUtime: 0.043 (seconds)

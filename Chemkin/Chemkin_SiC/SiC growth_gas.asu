@@ -24,15 +24,21 @@ species=SIHCL3           mw=135.4530
 species=SI2              mw=56.17200
 species=SI2C             mw=68.18315
 species=N2               mw=28.01340
-11
+17
 reaction=SIH4<=>SIH2+H2
-reaction=SI2H6<=>SIH4+SIH2
-reaction=C3H8<=>CH4+C2H4
+reaction=SI2H6<=>SIH2+SIH4
+reaction=SIH2<=>SI_G+H2
+reaction=2H+H2<=>2H2
+reaction=C3H8<=>CH3+C2H5
 reaction=CH4+H<=>CH3+H2
-reaction=C2H6<=>2CH3
-reaction=C2H5+H2<=>C2H6+H
-reaction=2C2H5<=>C2H4+C2H6
+reaction=C2H5+H<=>2CH3
+reaction=2CH3<=>C2H6
+reaction=C2H4+H<=>C2H5
 reaction=C2H4<=>C2H2+H2
+reaction=H3SICH3<=>SIH2+CH4
 reaction=H3SICH3<=>HSICH3+H2
-reaction=SIH4+CH3<=>H3SICH3+H
-reaction=CH4<=>CH2+H2
+reaction=SI2<=>2SI_G
+reaction=SI2+CH4<=>SI2C+2H2
+reaction=SIH2+SI_G<=>SI2+H2
+reaction=CH3+SI_G<=>SICH2+H
+reaction=SICH2+SIH2<=>SI2C+2H2

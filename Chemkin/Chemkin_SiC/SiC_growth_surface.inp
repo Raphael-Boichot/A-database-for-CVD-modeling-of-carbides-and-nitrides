@@ -1,8 +1,7 @@
 !----------------------------------------------------------------------
-! Surface Phase Definitions (Explicit Keywords and Volume Constraints)
+! SURFACE MECHANISM adapted from CFD-ACE
 !----------------------------------------------------------------------
 
-! 1. Surface Site Phase Definition
 SITE /SIC_SURFACE/ SDEN/1.080E-09/
     SI_S(S)   C_S(S)    SIH_S(S)  CH_S(S)   
     SIH3_S(S) CH3_S(S)  SIH2_S(S) N_S(S)    
@@ -14,26 +13,23 @@ BULK
   N_V(B) / 2.247 /
 END
 
-!----------------------------------------------------------------------
-! HETEROGENEOUS SURFACE KINETICS
-!----------------------------------------------------------------------
-REACTIONS
-! Units: A [cm, mol, s], b [dimensionless], Ea [cal/mol]
-!
-C(B) + SI_S(S) + H2 => SIH2 + C_S(S)            2.200E+32   0.000   52786.0
-2 SI(B) + 2 C_S(S) + H2 => C2H2 + 2 SI_S(S)     2.200E+26   0.000   52786.0
-SIH4 + C_S(S) => SIH2_S(S) + H2 + C(B)          1.592E+10   0.000    9401.0
-SIH2_S(S) => H2 + SI_S(S)                       2.912E+14   0.000    4527.0
-SIH2 + C_S(S) => SIH2_S(S) + C(B)               3.060E+11   0.500       0.0
-SI_G + C_S(S) => SI_S(S) + C(B)                 3.167E+11   0.500       0.0
-C2H2 + 2 SI_S(S) => 2 C_S(S) + H2 + 2 SI(B)     3.040E+40   0.500       0.0
-C2H4 + 2 SI_S(S) => 2 C_S(S) + 2 H2 + 2 SI(B)   2.342E+38   0.500       0.0
-CH4 + SI_S(S) => C_S(S) + 2 H2 + SI(B)          2.098E+05   0.500       0.0
-HSICH3 + C_S(S) => C(B) + SI_S(S) + H + CH3     2.490E+11   0.500       0.0
-CH3 + SI_S(S) => SI(B) + C_S(S) + 1.5 H2        4.270E+11   0.500       0.0
-SI2 + 2 C_S(S) => 2 C(B) + 2 SI_S(S)            1.000E+11   0.500       0.0
-SI2C + SI_S(S) => SI2 + SI(B) + C_S(S)          1.000E+25   0.500       0.0
-SICH2 + C_S(S) => C(B) + SI_S(S) + CH2          2.550E+11   0.500       0.0
-CH2 + SI_S(S) => C(B) + SI_S(S) + H2            4.419E+11   0.500       0.0
-N2 + 2 SI_S(S) => 2 N_V(B) + 2 SI_S(S)          1.000E+15   0.000  -31500.0
+REACTIONS KELVINS
+
+C(B) + SI_S(S) + H2 => SIH2 + C_S(S)            2.200E+32   0.000   52786
+2 SI(B) + 2 C_S(S) + H2 => C2H2 + 2 SI_S(S)     2.200E+26   0.000   52786
+SIH4 + C_S(S) => SIH2_S(S) + H2 + C(B)          1.592E+10   0.000    9401
+SIH2_S(S) => H2 + SI_S(S)                       2.912E+14   0.000    4527
+SIH2 + C_S(S) => SIH2_S(S) + C(B)               3.060E+11   0.500       0
+SI_G + C_S(S) => SI_S(S) + C(B)                 3.167E+11   0.500       0
+C2H2 + 2 SI_S(S) => 2 C_S(S) + H2 + 2 SI(B)     3.040E+40   0.500       0
+C2H4 + 2 SI_S(S) => 2 C_S(S) + 2 H2 + 2 SI(B)   2.342E+38   0.500       0
+CH4 + SI_S(S) => C_S(S) + 2 H2 + SI(B)          2.098E+05   0.500       0
+HSICH3 + C_S(S) => C(B) + SI_S(S) + H + CH3     2.490E+11   0.500       0
+CH3 + SI_S(S) => SI(B) + C_S(S) + 1.5 H2        4.270E+11   0.500       0
+SI2 + 2 C_S(S) => 2 C(B) + 2 SI_S(S)            1.000E+11   0.500       0
+SI2C + SI_S(S) => SI2 + SI(B) + C_S(S)          1.000E+25   0.500       0
+SICH2 + C_S(S) => C(B) + SI_S(S) + CH2          2.550E+11   0.500       0
+CH2 + SI_S(S) => C(B) + SI_S(S) + H2            4.419E+11   0.500       0
+N2 + 2 SI_S(S) => 2 N_V(B) + 2 SI_S(S)          1.000E+15   0.000  -31500
+
 END

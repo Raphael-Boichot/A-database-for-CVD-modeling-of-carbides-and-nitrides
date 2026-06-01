@@ -5,7 +5,7 @@
      *                       SURF Application                        *
      *                 SURFACE MECHANISM INTERPRETER                 *
      *                 Copyright(c) 2025 ANSYS, Inc.                 *                
-     *Run Date and Time: May 29, 2026   17:03:50     120 min from UTC*
+     *Run Date and Time: Jun 01, 2026   10:12:26     120 min from UTC*
      *****************************************************************
 
 
@@ -13,8 +13,8 @@
                 WORKING SPACE REQUIREMENTS
                  PROVIDED        REQUIRED 
  LOGICAL             1702           1702
- INTEGER             2628           2628
- REAL                4018           4018
+ INTEGER             2937           2937
+ REAL                4108           4108
  CHARACTER            284            284
 
 This problem requires      0.031MB of memory for the REAL array.
@@ -96,7 +96,7 @@ LicNum: unknown
   16. N2+2SI_S(S)=>2N_V(B)+2SI_S(S)                  1.00E+15    0.0   -31500.0
 
  UNITS for the preceding reactions (unless otherwise noted):
-       A units mole-cm-sec-K, E units cal/mole
+       A units mole-cm-sec-K, E units Kelvins
  
  
  -------------------------------------------------------------------------------
@@ -121,4 +121,4 @@ LicNum: unknown
       the following gas-phase species do not participate in any reaction:
       CL2              CL               HCL              SICL4            SIHCL3          
 
- Total CPUtime: 0.031 (seconds)
+ Total CPUtime: 0.013 (seconds)
