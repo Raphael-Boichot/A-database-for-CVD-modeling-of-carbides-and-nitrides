@@ -5,7 +5,7 @@
      *                       SURF Application                        *
      *                 SURFACE MECHANISM INTERPRETER                 *
      *                 Copyright(c) 2025 ANSYS, Inc.                 *                
-     *Run Date and Time: May 29, 2026   16:14:42     120 min from UTC*
+     *Run Date and Time: Jun 01, 2026   10:21:43     120 min from UTC*
      *****************************************************************
 
 
@@ -80,4 +80,4 @@ LicNum: unknown
       the following gas-phase species do not participate in any reaction:
       C7H8             N2              
 
- Total CPUtime: 0.007 (seconds)
+ Total CPUtime: 0.018 (seconds)

@@ -1,5 +1,5 @@
 !----------------------------------------------------------------------
-! SURFACE MECHANISM
+! SURFACE MECHANISM for SiC Growth Simulation adapted from CFD-ACE
 !----------------------------------------------------------------------
 
 SITE/AlN_surface/ SDEN/1.32E-09/
